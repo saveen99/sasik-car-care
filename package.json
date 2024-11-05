@@ -13,9 +13,13 @@
     "@emotion/react": "^11.13.3",
     "@emotion/styled": "^11.13.0",
     "@headlessui/react": "^2.2.0",
+    "@heroicons/react": "^2.1.5",
     "@mui/material": "^6.1.6",
+    "flowbite": "^2.5.2",
+    "flowbite-react": "^0.10.2",
     "react": "^17.0.0 || ^18.0.0",
-    "react-dom": "^17.0.0 || ^18.0.0"
+    "react-dom": "^17.0.0 || ^18.0.0",
+    "swiper": "^11.1.14"
   },
   "devDependencies": {
     "@types/react": "^18.3.3",
