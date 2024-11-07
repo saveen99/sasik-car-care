@@ -496,7 +496,7 @@ function Home() {
             <h4 className="text-light mb-4">Address</h4>
             <p className="mb-2"><i className="fa fa-map-marker-alt me-3"></i>Bambaragammana, Wariyapola, Kurunegala</p>
             <p className="mb-2"><i className="fa fa-phone-alt me-3"></i>037 2267991</p>
-            <p className="mb-2"><i className="fa fa-envelope me-3"></i>sasikcar@gmail.com</p>
+            <p className="mb-2"><i className="fa fa-envelope me-3"></i>sasikservice@gmail.com</p>
             <div className="d-flex pt-2">
             <a className="btn btn-outline-light btn-social" href="#"><i className="fab fa-twitter"></i></a>
             <a className="btn btn-outline-light btn-social" href="#"><i className="fab fa-facebook-f"></i></a>
@@ -532,7 +532,7 @@ function Home() {
         <div className="copyright">
         <div className="row">
             <div className="col-md-6 text-center text-md-start mb-3 mb-md-0">
-            &copy; <a className="border-bottom" href="#">Sasik Car Care</a>, All Right Reserved.
+            &copy; <a className="border-bottom" href="#">Sasik Service Station</a>, All Right Reserved.
             Designed By <a className="border-bottom" href="#">Team NIBM</a>
             </div>
             <div className="col-md-6 text-center text-md-end">
