@@ -9,7 +9,7 @@ function Home() {
               <div className="col-lg-7 px-5 text-start">
                   <div className="h-100 d-inline-flex align-items-center py-3 me-4">
                       <small className="fa fa-map-marker-alt text-primary me-2"></small>
-                      <small>123 Street, Main Road, Kurunegala</small>
+                      <small>Bambaragammana, Wariyapola, Kurunegala</small>
                   </div>
                   <div className="h-100 d-inline-flex align-items-center py-3">
                       <small className="far fa-clock text-primary me-2"></small>
@@ -19,7 +19,7 @@ function Home() {
               <div className="col-lg-5 px-5 text-end">
                   <div className="h-100 d-inline-flex align-items-center py-3 me-4">
                       <small className="fa fa-phone-alt text-primary me-2"></small>
-                      <small>+94 773 730 768</small>
+                      <small>037 2267991</small>
                   </div>
                   <div className="h-100 d-inline-flex align-items-center">
                       <a className="btn btn-sm-square bg-white text-primary me-1" href=""><i className="fab fa-facebook-f"></i></a>
@@ -36,7 +36,7 @@ function Home() {
       {/* Navbar Start */}
       <nav className="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
           <a href="index.html" className="navbar-brand d-flex align-items-center px-4 px-lg-5">
-              <h2 className="m-0 text-primary"><i className="fa fa-car me-3"></i>Sasik Car Care</h2>
+              <h2 className="m-0 text-primary"><i className="fa fa-car me-3"></i>Sasik Service Station</h2>
           </a>
           <button type="button" className="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
               <span className="navbar-toggler-icon"></span>
@@ -171,7 +171,7 @@ function Home() {
             </div>
             <div className="col-lg-6">
                 <h6 className="text-primary text-uppercase">About Us</h6>
-                <h1 className="mb-4"><span className="text-primary">CarServ</span> Is The Best Place For Your Auto Care</h1>
+                <h1 className="mb-4"><span className="text-primary">Sasik Service Station</span> Is The Best Place For Your Auto Care</h1>
                 <p className="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
                 <div className="row g-4 mb-3 pb-3">
                 <div className="col-12 wow fadeIn" data-wow-delay="0.1s">
@@ -365,7 +365,7 @@ function Home() {
                   <div className="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                       <div className="team-item">
                           <div className="position-relative overflow-hidden">
-                              <img className="img-fluid" src="/src/assets/img/team-1.jpg" alt=""/>
+                              <img className="img-fluid" src="/src/assets/img/profile.png" alt=""/>
                               <div className="team-overlay position-absolute start-0 top-0 w-100 h-100">
                                   <a className="btn btn-square mx-1" href=""><i className="fab fa-facebook-f"></i></a>
                                   <a className="btn btn-square mx-1" href=""><i className="fab fa-twitter"></i></a>
@@ -381,7 +381,7 @@ function Home() {
                   <div className="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                       <div className="team-item">
                           <div className="position-relative overflow-hidden">
-                              <img className="img-fluid" src="/src/assets/img/team-2.jpg" alt=""/>
+                              <img className="img-fluid" src="/src/assets/img/profile.png" alt=""/>
                               <div className="team-overlay position-absolute start-0 top-0 w-100 h-100">
                                   <a className="btn btn-square mx-1" href=""><i className="fab fa-facebook-f"></i></a>
                                   <a className="btn btn-square mx-1" href=""><i className="fab fa-twitter"></i></a>
@@ -397,7 +397,7 @@ function Home() {
                   <div className="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                       <div className="team-item">
                           <div className="position-relative overflow-hidden">
-                              <img className="img-fluid" src="/src/assets/img/team-3.jpg" alt=""/>
+                              <img className="img-fluid" src="/src/assets/img/profile.png" alt=""/>
                               <div className="team-overlay position-absolute start-0 top-0 w-100 h-100">
                                   <a className="btn btn-square mx-1" href=""><i className="fab fa-facebook-f"></i></a>
                                   <a className="btn btn-square mx-1" href=""><i className="fab fa-twitter"></i></a>
@@ -413,7 +413,7 @@ function Home() {
                   <div className="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
                       <div className="team-item">
                           <div className="position-relative overflow-hidden">
-                              <img className="img-fluid" src="/src/assets/img/team-4.jpg" alt=""/>
+                              <img className="img-fluid" src="/src/assets/img/profile.png" alt=""/>
                               <div className="team-overlay position-absolute start-0 top-0 w-100 h-100">
                                   <a className="btn btn-square mx-1" href=""><i className="fab fa-facebook-f"></i></a>
                                   <a className="btn btn-square mx-1" href=""><i className="fab fa-twitter"></i></a>
@@ -442,25 +442,25 @@ function Home() {
         <div className="owl-carousel testimonial-carousel position-relative">
         {[
             {
-            img: "/src/assets/img/testimonial-1.jpg",
+            img: "/src/assets/img/profile.png",
             name: "Client Name",
             profession: "Profession",
             text: "Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit."
             },
             {
-            img: "/src/assets/img/testimonial-2.jpg",
+            img: "/src/assets/img/profile.png",
             name: "Client Name",
             profession: "Profession",
             text: "Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit."
             },
             {
-            img: "/src/assets/img/testimonial-3.jpg",
+            img: "/src/assets/img/profile.png",
             name: "Client Name",
             profession: "Profession",
             text: "Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit."
             },
             {
-            img: "/src/assets/img/testimonial-4.jpg",
+            img: "/src/assets/img/profile.png",
             name: "Client Name",
             profession: "Profession",
             text: "Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit."
@@ -494,8 +494,8 @@ function Home() {
         <div className="row g-5">
         <div className="col-lg-3 col-md-6">
             <h4 className="text-light mb-4">Address</h4>
-            <p className="mb-2"><i className="fa fa-map-marker-alt me-3"></i>123 Street, Main Road, Kurunegala</p>
-            <p className="mb-2"><i className="fa fa-phone-alt me-3"></i>+94 773 730 768</p>
+            <p className="mb-2"><i className="fa fa-map-marker-alt me-3"></i>Bambaragammana, Wariyapola, Kurunegala</p>
+            <p className="mb-2"><i className="fa fa-phone-alt me-3"></i>037 2267991</p>
             <p className="mb-2"><i className="fa fa-envelope me-3"></i>sasikcar@gmail.com</p>
             <div className="d-flex pt-2">
             <a className="btn btn-outline-light btn-social" href="#"><i className="fab fa-twitter"></i></a>
