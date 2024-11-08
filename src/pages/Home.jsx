@@ -163,22 +163,22 @@ function Home() {
               <div className="row g-4">
                   <div className="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.1s">
                       <i className="fa fa-check fa-2x text-white mb-3"></i>
-                      <h2 className="text-white mb-2" data-toggle="counter-up">1234</h2>
+                      <h2 className="text-white mb-2" data-toggle="counter-up">15</h2>
                       <p className="text-white mb-0">Years Experience</p>
                   </div>
                   <div className="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.3s">
                       <i className="fa fa-users-cog fa-2x text-white mb-3"></i>
-                      <h2 className="text-white mb-2" data-toggle="counter-up">1234</h2>
+                      <h2 className="text-white mb-2" data-toggle="counter-up">5</h2>
                       <p className="text-white mb-0">Expert Technicians</p>
                   </div>
                   <div className="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.5s">
                       <i className="fa fa-users fa-2x text-white mb-3"></i>
-                      <h2 className="text-white mb-2" data-toggle="counter-up">1234</h2>
+                      <h2 className="text-white mb-2" data-toggle="counter-up">500+</h2>
                       <p className="text-white mb-0">Satisfied Clients</p>
                   </div>
                   <div className="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.7s">
                       <i className="fa fa-car fa-2x text-white mb-3"></i>
-                      <h2 className="text-white mb-2" data-toggle="counter-up">1234</h2>
+                      <h2 className="text-white mb-2" data-toggle="counter-up">1000+</h2>
                       <p className="text-white mb-0">Compleate Projects</p>
                   </div>
               </div>
@@ -296,80 +296,98 @@ function Home() {
 
     {/* Team Start */}
     <div className="container-xxl py-5">
-          <div className="container">
-              <div className="text-center wow fadeInUp" data-wow-delay="0.1s">
-                  <h6 className="text-primary text-uppercase">Our Technicians</h6>
-                  <h1 className="mb-5">Our Expert Technicians</h1>
-              </div>
-              <div className="row g-4">
-                  <div className="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                      <div className="team-item">
-                          <div className="position-relative overflow-hidden">
-                              <img className="img-fluid" src="/src/assets/img/profile.png" alt=""/>
-                              <div className="team-overlay position-absolute start-0 top-0 w-100 h-100">
-                                  <a className="btn btn-square mx-1" href=""><i className="fab fa-facebook-f"></i></a>
-                                  <a className="btn btn-square mx-1" href=""><i className="fab fa-twitter"></i></a>
-                                  <a className="btn btn-square mx-1" href=""><i className="fab fa-instagram"></i></a>
-                              </div>
-                          </div>
-                          <div className="bg-light text-center p-4">
-                              <h5 className="fw-bold mb-0">Full Name</h5>
-                              <small>Designation</small>
-                          </div>
-                      </div>
-                  </div>
-                  <div className="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                      <div className="team-item">
-                          <div className="position-relative overflow-hidden">
-                              <img className="img-fluid" src="/src/assets/img/profile.png" alt=""/>
-                              <div className="team-overlay position-absolute start-0 top-0 w-100 h-100">
-                                  <a className="btn btn-square mx-1" href=""><i className="fab fa-facebook-f"></i></a>
-                                  <a className="btn btn-square mx-1" href=""><i className="fab fa-twitter"></i></a>
-                                  <a className="btn btn-square mx-1" href=""><i className="fab fa-instagram"></i></a>
-                              </div>
-                          </div>
-                          <div className="bg-light text-center p-4">
-                              <h5 className="fw-bold mb-0">Full Name</h5>
-                              <small>Designation</small>
-                          </div>
-                      </div>
-                  </div>
-                  <div className="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                      <div className="team-item">
-                          <div className="position-relative overflow-hidden">
-                              <img className="img-fluid" src="/src/assets/img/profile.png" alt=""/>
-                              <div className="team-overlay position-absolute start-0 top-0 w-100 h-100">
-                                  <a className="btn btn-square mx-1" href=""><i className="fab fa-facebook-f"></i></a>
-                                  <a className="btn btn-square mx-1" href=""><i className="fab fa-twitter"></i></a>
-                                  <a className="btn btn-square mx-1" href=""><i className="fab fa-instagram"></i></a>
-                              </div>
-                          </div>
-                          <div className="bg-light text-center p-4">
-                              <h5 className="fw-bold mb-0">Full Name</h5>
-                              <small>Designation</small>
-                          </div>
-                      </div>
-                  </div>
-                  <div className="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
-                      <div className="team-item">
-                          <div className="position-relative overflow-hidden">
-                              <img className="img-fluid" src="/src/assets/img/profile.png" alt=""/>
-                              <div className="team-overlay position-absolute start-0 top-0 w-100 h-100">
-                                  <a className="btn btn-square mx-1" href=""><i className="fab fa-facebook-f"></i></a>
-                                  <a className="btn btn-square mx-1" href=""><i className="fab fa-twitter"></i></a>
-                                  <a className="btn btn-square mx-1" href=""><i className="fab fa-instagram"></i></a>
-                              </div>
-                          </div>
-                          <div className="bg-light text-center p-4">
-                              <h5 className="fw-bold mb-0">Full Name</h5>
-                              <small>Designation</small>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-          </div>
-      </div>
-      {/* Team End */}
+        <div className="container">
+            <div className="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h6 className="text-primary text-uppercase">Our Technicians</h6>
+                <h1 className="mb-5">Our Expert Technicians</h1>
+            </div>
+            <div className="row g-4 justify-content-center">
+                <div className="col-lg-2 col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div className="team-item">
+                        <div className="position-relative overflow-hidden">
+                            <img className="img-fluid" src="/src/assets/img/profile.png" alt=""/>
+                            <div className="team-overlay position-absolute start-0 top-0 w-100 h-100">
+                                <a className="btn btn-square mx-1" href=""><i className="fab fa-facebook-f"></i></a>
+                                <a className="btn btn-square mx-1" href=""><i className="fab fa-twitter"></i></a>
+                                <a className="btn btn-square mx-1" href=""><i className="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div className="bg-light text-center p-4">
+                            <h5 className="fw-bold mb-0">Full Name</h5>
+                            <small>Designation</small>
+                        </div>
+                    </div>
+                </div>
+                <div className="col-lg-2 col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div className="team-item">
+                        <div className="position-relative overflow-hidden">
+                            <img className="img-fluid" src="/src/assets/img/profile.png" alt=""/>
+                            <div className="team-overlay position-absolute start-0 top-0 w-100 h-100">
+                                <a className="btn btn-square mx-1" href=""><i className="fab fa-facebook-f"></i></a>
+                                <a className="btn btn-square mx-1" href=""><i className="fab fa-twitter"></i></a>
+                                <a className="btn btn-square mx-1" href=""><i className="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div className="bg-light text-center p-4">
+                            <h5 className="fw-bold mb-0">Full Name</h5>
+                            <small>Designation</small>
+                        </div>
+                    </div>
+                </div>
+                <div className="col-lg-2 col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div className="team-item">
+                        <div className="position-relative overflow-hidden">
+                            <img className="img-fluid" src="/src/assets/img/profile.png" alt=""/>
+                            <div className="team-overlay position-absolute start-0 top-0 w-100 h-100">
+                                <a className="btn btn-square mx-1" href=""><i className="fab fa-facebook-f"></i></a>
+                                <a className="btn btn-square mx-1" href=""><i className="fab fa-twitter"></i></a>
+                                <a className="btn btn-square mx-1" href=""><i className="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div className="bg-light text-center p-4">
+                            <h5 className="fw-bold mb-0">Full Name</h5>
+                            <small>Designation</small>
+                        </div>
+                    </div>
+                </div>
+                <div className="col-lg-2 col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <div className="team-item">
+                        <div className="position-relative overflow-hidden">
+                            <img className="img-fluid" src="/src/assets/img/profile.png" alt=""/>
+                            <div className="team-overlay position-absolute start-0 top-0 w-100 h-100">
+                                <a className="btn btn-square mx-1" href=""><i className="fab fa-facebook-f"></i></a>
+                                <a className="btn btn-square mx-1" href=""><i className="fab fa-twitter"></i></a>
+                                <a className="btn btn-square mx-1" href=""><i className="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div className="bg-light text-center p-4">
+                            <h5 className="fw-bold mb-0">Full Name</h5>
+                            <small>Designation</small>
+                        </div>
+                    </div>
+                </div>
+                <div className="col-lg-2 col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.9s">
+                    <div className="team-item">
+                        <div className="position-relative overflow-hidden">
+                            <img className="img-fluid" src="/src/assets/img/profile.png" alt=""/>
+                            <div className="team-overlay position-absolute start-0 top-0 w-100 h-100">
+                                <a className="btn btn-square mx-1" href=""><i className="fab fa-facebook-f"></i></a>
+                                <a className="btn btn-square mx-1" href=""><i className="fab fa-twitter"></i></a>
+                                <a className="btn btn-square mx-1" href=""><i className="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div className="bg-light text-center p-4">
+                            <h5 className="fw-bold mb-0">Full Name</h5>
+                            <small>Designation</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    {/* Team End */}
+
+
 
 
     {/* Testimonial Start */}
