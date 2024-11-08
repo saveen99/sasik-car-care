@@ -2,66 +2,6 @@ function Home() {
   return (
     <div>
 
-      
-      {/* Topbar Start */}
-      <div className="container-fluid bg-light p-0">
-          <div className="row gx-0 d-none d-lg-flex">
-              <div className="col-lg-7 px-5 text-start">
-                  <div className="h-100 d-inline-flex align-items-center py-3 me-4">
-                      <small className="fa fa-map-marker-alt text-primary me-2"></small>
-                      <small>Bambaragammana, Wariyapola, Kurunegala</small>
-                  </div>
-                  <div className="h-100 d-inline-flex align-items-center py-3">
-                      <small className="far fa-clock text-primary me-2"></small>
-                      <small>Mon - Fri : 09.00 AM - 09.00 PM</small>
-                  </div>
-              </div>
-              <div className="col-lg-5 px-5 text-end">
-                  <div className="h-100 d-inline-flex align-items-center py-3 me-4">
-                      <small className="fa fa-phone-alt text-primary me-2"></small>
-                      <small>037 2267991</small>
-                  </div>
-                  <div className="h-100 d-inline-flex align-items-center">
-                      <a className="btn btn-sm-square bg-white text-primary me-1" href=""><i className="fab fa-facebook-f"></i></a>
-                      <a className="btn btn-sm-square bg-white text-primary me-1" href=""><i className="fab fa-twitter"></i></a>
-                      <a className="btn btn-sm-square bg-white text-primary me-1" href=""><i className="fab fa-linkedin-in"></i></a>
-                      <a className="btn btn-sm-square bg-white text-primary me-0" href=""><i className="fab fa-instagram"></i></a>
-                  </div>
-              </div>
-          </div>
-      </div>
-      {/* Topbar End */}
-
-
-      {/* Navbar Start */}
-      <nav className="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
-          <a href="index.html" className="navbar-brand d-flex align-items-center px-4 px-lg-5">
-              <h2 className="m-0 text-primary"><i className="fa fa-car me-3"></i>Sasik Service Station</h2>
-          </a>
-          <button type="button" className="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-              <span className="navbar-toggler-icon"></span>
-          </button>
-          <div className="collapse navbar-collapse" id="navbarCollapse">
-              <div className="navbar-nav ms-auto p-4 p-lg-0">
-                  <a href="index.html" className="nav-item nav-link active">Home</a>
-                  <a href="about.html" className="nav-item nav-link">About</a>
-                  <a href="service.html" className="nav-item nav-link">Services</a>
-                  <div className="nav-item dropdown">
-                      <a href="#" className="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
-                      <div className="dropdown-menu fade-up m-0">
-                          <a href="booking.html" className="dropdown-item">Booking</a>
-                          <a href="team.html" className="dropdown-item">Technicians</a>
-                          <a href="testimonial.html" className="dropdown-item">Testimonial</a>
-                      </div>
-                  </div>
-                  <a href="contact.html" className="nav-item nav-link">Contact</a>
-              </div>
-              <a href="" className="btn btn-primary py-4 px-lg-5 d-none d-lg-block">Contact Us !<i className="fa fa-arrow-right ms-3"></i></a>
-          </div>
-      </nav>
-      {/* Navbar End */}
-
-
       {/* Carousel Start */}
       <div className="container-fluid p-0 mb-5">
           <div id="header-carousel" className="carousel slide" data-bs-ride="carousel">
@@ -485,69 +425,6 @@ function Home() {
     </div>
     {/* Testimonial End */}
 
-
-
-      
-    {/* Footer Start */}
-    <div className="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
-    <div className="container py-5">
-        <div className="row g-5">
-        <div className="col-lg-3 col-md-6">
-            <h4 className="text-light mb-4">Address</h4>
-            <p className="mb-2"><i className="fa fa-map-marker-alt me-3"></i>Bambaragammana, Wariyapola, Kurunegala</p>
-            <p className="mb-2"><i className="fa fa-phone-alt me-3"></i>037 2267991</p>
-            <p className="mb-2"><i className="fa fa-envelope me-3"></i>sasikservice@gmail.com</p>
-            <div className="d-flex pt-2">
-            <a className="btn btn-outline-light btn-social" href="#"><i className="fab fa-twitter"></i></a>
-            <a className="btn btn-outline-light btn-social" href="#"><i className="fab fa-facebook-f"></i></a>
-            <a className="btn btn-outline-light btn-social" href="#"><i className="fab fa-youtube"></i></a>
-            <a className="btn btn-outline-light btn-social" href="#"><i className="fab fa-linkedin-in"></i></a>
-            </div>
-        </div>
-        <div className="col-lg-3 col-md-6">
-            <h4 className="text-light mb-4">Opening Hours</h4>
-            <h6 className="text-light">Monday - Friday:</h6>
-            <p className="mb-4">09.00 AM - 09.00 PM</p>
-            <h6 className="text-light">Saturday - Sunday:</h6>
-            <p className="mb-0">09.00 AM - 12.00 PM</p>
-        </div>
-        <div className="col-lg-3 col-md-6">
-            <h4 className="text-light mb-4">Services</h4>
-            <a className="btn btn-link" href="#">Diagnostic Test</a>
-            <a className="btn btn-link" href="#">Engine Servicing</a>
-            <a className="btn btn-link" href="#">Tires Replacement</a>
-            <a className="btn btn-link" href="#">Oil Changing</a>
-            <a className="btn btn-link" href="#">Vacuum Cleaning</a>
-        </div>
-        <div className="col-lg-3 col-md-6">
-            <img 
-                src="/src/assets/img/logo.ico" 
-                alt="logo" 
-            />
-        </div>
-
-        </div>
-    </div>
-    <div className="container">
-        <div className="copyright">
-        <div className="row">
-            <div className="col-md-6 text-center text-md-start mb-3 mb-md-0">
-            &copy; <a className="border-bottom" href="#">Sasik Service Station</a>, All Right Reserved.
-            Designed By <a className="border-bottom" href="#">Team NIBM</a>
-            </div>
-            <div className="col-md-6 text-center text-md-end">
-            <div className="footer-menu">
-                <a href="#">Home</a>
-                <a href="#">Cookies</a>
-                <a href="#">Help</a>
-                <a href="#">FAQs</a>
-            </div>
-            </div>
-        </div>
-        </div>
-    </div>
-    </div>
-    {/* Footer End */}
 
 
       
