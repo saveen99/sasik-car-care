@@ -198,6 +198,7 @@ function About() {
       </div>
       {/* Team End */}
     </div>
+    
   );
 }
 
