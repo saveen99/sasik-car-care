@@ -2,7 +2,7 @@ function About() {
   return (
     <div>
       {/* Page Header Start */}
-      <div className="container-fluid page-header mb-5 p-0" style={{ backgroundImage: 'url(img/carousel-bg-1.jpg)' }}>
+      <div className="container-fluid page-header mb-5 p-0" style={{ backgroundImage: 'url(/src/assets/img/carousel-bg-1.jpg)' }}>
           <div className="container-fluid page-header-inner py-5">
               <div className="container text-center">
                   <h1 className="display-3 text-white mb-3 animated slideInDown">About Us</h1>
@@ -65,7 +65,7 @@ function About() {
               <div className="row g-5">
                   <div className="col-lg-6 pt-4" style={{ minHeight: '400px' }}>
                       <div className="position-relative h-100 wow fadeIn" data-wow-delay="0.1s">
-                          <img className="position-absolute img-fluid w-100 h-100" src="img/about.jpg" style={{ objectFit: 'cover' }} alt=""/>
+                          <img className="position-absolute img-fluid w-100 h-100" src="/src/assets/img/about.jpg" style={{ objectFit: 'cover' }} alt=""/>
                           <div className="position-absolute top-0 end-0 mt-n4 me-n4 py-4 px-5" style={{ background: 'rgba(0, 0, 0, .08)' }}>
                               <h1 className="display-4 text-white mb-0">15 <span className="fs-4">Years</span></h1>
                               <h4 className="text-white">Experience</h4>
@@ -159,7 +159,7 @@ function About() {
               <div className="row g-4">
                   <div className="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                       <div className="team-item rounded overflow-hidden">
-                          <img className="img-fluid" src="img/team-1.jpg" alt=""/>
+                          <img className="img-fluid" src="/src/assets/img/team-1.jpg" alt=""/>
                           <div className="team-text">
                               <h5 className="mb-0">John Doe</h5>
                               <p>CEO & Founder</p>
@@ -168,7 +168,7 @@ function About() {
                   </div>
                   <div className="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                       <div className="team-item rounded overflow-hidden">
-                          <img className="img-fluid" src="img/team-2.jpg" alt=""/>
+                          <img className="img-fluid" src="/src/assets/img/team-2.jpg" alt=""/>
                           <div className="team-text">
                               <h5 className="mb-0">Jane Doe</h5>
                               <p>Manager</p>
@@ -177,7 +177,7 @@ function About() {
                   </div>
                   <div className="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                       <div className="team-item rounded overflow-hidden">
-                          <img className="img-fluid" src="img/team-3.jpg" alt=""/>
+                          <img className="img-fluid" src="/src/assets/img/team-3.jpg" alt=""/>
                           <div className="team-text">
                               <h5 className="mb-0">Mike Smith</h5>
                               <p>Mechanic</p>
@@ -186,7 +186,7 @@ function About() {
                   </div>
                   <div className="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
                       <div className="team-item rounded overflow-hidden">
-                          <img className="img-fluid" src="img/team-4.jpg" alt=""/>
+                          <img className="img-fluid" src="/src/assets/img/team-4.jpg" alt=""/>
                           <div className="team-text">
                               <h5 className="mb-0">Sarah Johnson</h5>
                               <p>Technician</p>
