@@ -112,7 +112,7 @@ function Home() {
             <div className="col-lg-6">
                 <h6 className="text-primary text-uppercase">About Us</h6>
                 <h1 className="mb-4"><span className="text-primary">Sasik Service Station</span> Is The Best Place For Your Auto Care</h1>
-                <p className="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
+                <p className="mb-4">Sasik Service Station is your go-to destination for top-quality auto care. We are dedicated to ensuring your vehicle receives the best service with our team of skilled professionals, high standards, and award-winning expertise.</p>
                 <div className="row g-4 mb-3 pb-3">
                 <div className="col-12 wow fadeIn" data-wow-delay="0.1s">
                     <div className="d-flex">
