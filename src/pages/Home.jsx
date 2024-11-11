@@ -121,7 +121,7 @@ function Home() {
                     </div>
                     <div className="ps-3">
                         <h6>Professional & Expert</h6>
-                        <span>Diam dolor diam ipsum sit amet diam et eos</span>
+                        <span>Our skilled professionals provide top-notch car maintenance with care and precision.</span>
                     </div>
                     </div>
                 </div>
@@ -132,7 +132,7 @@ function Home() {
                     </div>
                     <div className="ps-3">
                         <h6>Quality Servicing Center</h6>
-                        <span>Diam dolor diam ipsum sit amet diam et eos</span>
+                        <span>We ensure quality with top tools, products, and exceptional techniques.</span>
                     </div>
                     </div>
                 </div>
@@ -143,7 +143,7 @@ function Home() {
                     </div>
                     <div className="ps-3">
                         <h6>Awards Winning Workers</h6>
-                        <span>Diam dolor diam ipsum sit amet diam et eos</span>
+                        <span>Our award-winning staff delivers outstanding, recognized, and excellent auto care service.</span>
                     </div>
                     </div>
                 </div>
