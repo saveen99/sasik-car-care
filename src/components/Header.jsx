@@ -47,7 +47,6 @@ function Header() {
                     <div className="nav-item dropdown">
                         <a href="#" className="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
                         <div className="dropdown-menu fade-up m-0">
-                            <a href="/booking" className="dropdown-item">Booking</a>
                             <a href="/team" className="dropdown-item">Technicians</a>
                             <a href="/testimonial" className="dropdown-item">Testimonial</a>
                         </div>
