@@ -280,7 +280,7 @@ function Home() {
                     </div>
                 </div>
                 <div className="col-md-6">
-                    <h3 className="mb-3">15 Years of Expertise in Oil Changing & Fluid Maintenance</h3>
+                    <h3 className="mb-3">15 Years of Expertise in Oil Changing</h3>
                     <p className="mb-4">Temporary time with a break. Painful moments, but a lot of experience. Our oil changing service helps to keep your vehicle running at peak performance with the best oils and fluids.</p>
                     <p><i className="fa fa-check text-success me-3"></i>Premium Oil Selection</p>
                     <p><i className="fa fa-check text-success me-3"></i>Efficient Fluid Maintenance</p>
