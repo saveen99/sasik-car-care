@@ -28,7 +28,7 @@ function About() {
                           <i className="fa fa-certificate fa-3x text-primary flex-shrink-0"></i>
                           <div className="ps-4">
                               <h5 className="mb-3">Quality Servicing</h5>
-                              <p>Diam dolor diam ipsum sit amet diam et eos erat ipsum</p>
+                              <p>High-standard, efficient vehicle maintenance ensuring reliability and customer satisfaction.</p>
                               <a className="text-secondary border-bottom" href="">Read More</a>
                           </div>
                       </div>
@@ -38,7 +38,7 @@ function About() {
                           <i className="fa fa-users-cog fa-3x text-primary flex-shrink-0"></i>
                           <div className="ps-4">
                               <h5 className="mb-3">Expert Workers</h5>
-                              <p>Diam dolor diam ipsum sit amet diam et eos erat ipsum</p>
+                              <p>Skilled professionals expertly handle diverse vehicle issues with precision.</p>
                               <a className="text-secondary border-bottom" href="">Read More</a>
                           </div>
                       </div>
@@ -48,7 +48,7 @@ function About() {
                           <i className="fa fa-tools fa-3x text-primary flex-shrink-0"></i>
                           <div className="ps-4">
                               <h5 className="mb-3">Modern Equipment</h5>
-                              <p>Diam dolor diam ipsum sit amet diam et eos erat ipsum</p>
+                              <p>Advanced tools enable efficient, accurate vehicle diagnostics and repairs.</p>
                               <a className="text-secondary border-bottom" href="">Read More</a>
                           </div>
                       </div>
@@ -75,7 +75,7 @@ function About() {
                   <div className="col-lg-6">
                       <h6 className="text-primary text-uppercase">About Us</h6>
                       <h1 className="mb-4"><span className="text-primary">CarServ</span> Is The Best Place For Your Auto Care</h1>
-                      <p className="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
+                      <p className="mb-4">Sasik Service Station is your go-to destination for top-quality auto care. We are dedicated to ensuring your vehicle receives the best service with our team of skilled professionals, high standards, and award-winning expertise.</p>
                       <div className="row g-4 mb-3 pb-3">
                           <div className="col-12 wow fadeIn" data-wow-delay="0.1s">
                               <div className="d-flex">
@@ -84,7 +84,7 @@ function About() {
                                   </div>
                                   <div className="ps-3">
                                       <h6>Professional & Expert</h6>
-                                      <span>Diam dolor diam ipsum sit amet diam et eos</span>
+                                      <span>Our skilled professionals provide top-notch car maintenance with care and precision.</span>
                                   </div>
                               </div>
                           </div>
@@ -95,7 +95,7 @@ function About() {
                                   </div>
                                   <div className="ps-3">
                                       <h6>Quality Servicing Center</h6>
-                                      <span>Diam dolor diam ipsum sit amet diam et eos</span>
+                                      <span>We ensure quality with top tools, products, and exceptional techniques.</span>
                                   </div>
                               </div>
                           </div>
@@ -106,7 +106,7 @@ function About() {
                                   </div>
                                   <div className="ps-3">
                                       <h6>Awards Winning Workers</h6>
-                                      <span>Diam dolor diam ipsum sit amet diam et eos</span>
+                                      <span>Our award-winning staff delivers outstanding, recognized, and excellent auto care service.</span>
                                   </div>
                               </div>
                           </div>
