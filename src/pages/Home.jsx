@@ -420,7 +420,7 @@ function Home() {
                 img: "/src/assets/img/testimonial-1.jpg",
                 name: "Michael Ross",
                 profession: "Business Owner",
-                text: "Sasik Service Station has been a lifesaver for my company vehicles. The professional service and quick turnaround time make all the difference. Highly recommended!"
+                text: "Sasik Service Station provides exceptional service every time I visit. The team is professional, and my vehicle is always well-maintained and running smoothly. Highly recommend!"
                 },
                 {
                 img: "/src/assets/img/testimonial-2.jpg",
@@ -437,7 +437,7 @@ function Home() {
                 {
                 img: "/src/assets/img/testimonial-4.jpg",
                 name: "Emily Carter",
-                profession: "Nurse",
+                profession: "Entrepreneur",
                 text: "Maintaining my car is crucial for my busy schedule. Sasik Service Station always provides reliable service, and I can count on them to keep me on the road safely and on time."
                 },
                 // Add additional testimonials as needed
