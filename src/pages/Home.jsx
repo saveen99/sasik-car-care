@@ -418,27 +418,27 @@ function Home() {
             {[
               {
                 img: "/src/assets/img/testimonial-1.jpg",
-                name: "Client Name",
-                profession: "Profession",
-                text: "Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit."
+                name: "Michael Ross",
+                profession: "Business Owner",
+                text: "Sasik Service Station has been a lifesaver for my company vehicles. The professional service and quick turnaround time make all the difference. Highly recommended!"
                 },
                 {
                 img: "/src/assets/img/testimonial-2.jpg",
-                name: "Client Name",
-                profession: "Profession",
-                text: "Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit."
+                name: "Sarah Johnson",
+                profession: "Teacher",
+                text: "I am always impressed by the thorough and efficient service I receive. The team is friendly and ensures my car is in top shape, making my daily commute smooth and worry-free."
                 },
                 {
                 img: "/src/assets/img/testimonial-3.jpg",
-                name: "Client Name",
-                profession: "Profession",
-                text: "Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit."
+                name: "Daniel Cooper",
+                profession: "IT Specialist",
+                text: "The quality of service and attention to detail are exceptional. The team at Sasik Service Station really knows how to take care of cars, and I wouldn’t trust anyone else with mine."
                 },
                 {
                 img: "/src/assets/img/testimonial-4.jpg",
-                name: "Client Name",
-                profession: "Profession",
-                text: "Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit."
+                name: "Emily Carter",
+                profession: "Nurse",
+                text: "Maintaining my car is crucial for my busy schedule. Sasik Service Station always provides reliable service, and I can count on them to keep me on the road safely and on time."
                 },
                 // Add additional testimonials as needed
             ].map((testimonial, index) => (
