@@ -229,7 +229,7 @@ function Home() {
                     </div>
                 </div>
                 <div className="col-md-6">
-                    <h3 className="mb-3">15 Years Of Experience In Auto Servicing</h3>
+                    <h3 className="mb-3">Why Choose Us?</h3>
                     <p className="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
                     <p><i className="fa fa-check text-success me-3"></i>Quality Servicing</p>
                     <p><i className="fa fa-check text-success me-3"></i>Expert Workers</p>
@@ -246,7 +246,7 @@ function Home() {
                     </div>
                 </div>
                 <div className="col-md-6">
-                    <h3 className="mb-3">15 Years Of Expertise In Engine Repair</h3>
+                    <h3 className="mb-3">Our Engine Repair Expertise</h3>
                     <p className="mb-4">Temporary time with a break. Painful moments, but a lot of experience. We offer detailed diagnostics and repairs. Our experts provide a comprehensive range of services to keep your engine running smoothly.</p>
                     <p><i className="fa fa-check text-success me-3"></i>Quality Engine Diagnostics</p>
                     <p><i className="fa fa-check text-success me-3"></i>Certified Technicians</p>
@@ -263,7 +263,7 @@ function Home() {
                     </div>
                 </div>
                 <div className="col-md-6">
-                    <h3 className="mb-3">15 Years of Expertise in Tire Replacement & Alignment</h3>
+                    <h3 className="mb-3">Trusted Tire Replacement & Alignment</h3>
                     <p className="mb-4">Temporary time with a break. Painful moments, but a lot of experience. Our tire services ensure your car is safe and well-equipped for any road. Trust our professionals to handle the replacement and alignment.</p>
                     <p><i className="fa fa-check text-success me-3"></i>Top Tire Brands</p>
                     <p><i className="fa fa-check text-success me-3"></i>Quick & Efficient Service</p>
@@ -280,7 +280,7 @@ function Home() {
                     </div>
                 </div>
                 <div className="col-md-6">
-                    <h3 className="mb-3">15 Years of Expertise in Oil Changing</h3>
+                    <h3 className="mb-3">Expert Oil Change Services</h3>
                     <p className="mb-4">Temporary time with a break. Painful moments, but a lot of experience. Our oil changing service helps to keep your vehicle running at peak performance with the best oils and fluids.</p>
                     <p><i className="fa fa-check text-success me-3"></i>Premium Oil Selection</p>
                     <p><i className="fa fa-check text-success me-3"></i>Efficient Fluid Maintenance</p>
