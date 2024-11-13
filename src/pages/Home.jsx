@@ -1,3 +1,7 @@
+import OwlCarousel from 'react-owl-carousel';
+import 'owl.carousel/dist/assets/owl.carousel.css';
+import 'owl.carousel/dist/assets/owl.theme.default.css';
+
 function Home() {
   return (
     <div>
@@ -392,56 +396,70 @@ function Home() {
 
     {/* Testimonial Start */}
     <div className="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
-    <div className="container">
-        <div className="text-center">
-        <h6 className="text-primary text-uppercase">Testimonial</h6>
-        <h1 className="mb-5">Our Clients Say!</h1>
+        <div className="container">
+          <div className="text-center">
+            <h6 className="text-primary text-uppercase">Testimonial</h6>
+            <h1 className="mb-5">Our Clients Say!</h1>
+          </div>
+
+          <OwlCarousel
+            className="owl-theme"
+            loop
+            margin={10}
+            nav={false}
+            autoplay
+            autoplayTimeout={3000}
+            responsive={{
+              0: { items: 1 },
+              600: { items: 2 },
+              1000: { items: 3 },
+            }}
+          >
+            {[
+              {
+                img: "/src/assets/img/testimonial-1.jpg",
+                name: "Client Name",
+                profession: "Profession",
+                text: "Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit."
+                },
+                {
+                img: "/src/assets/img/testimonial-2.jpg",
+                name: "Client Name",
+                profession: "Profession",
+                text: "Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit."
+                },
+                {
+                img: "/src/assets/img/testimonial-3.jpg",
+                name: "Client Name",
+                profession: "Profession",
+                text: "Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit."
+                },
+                {
+                img: "/src/assets/img/testimonial-4.jpg",
+                name: "Client Name",
+                profession: "Profession",
+                text: "Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit."
+                },
+                // Add additional testimonials as needed
+            ].map((testimonial, index) => (
+              <div className="testimonial-item text-center" key={index}>
+                <img
+                  className="bg-light rounded-circle p-2 mx-auto mb-3"
+                  src={testimonial.img}
+                  alt={`Testimonial ${index + 1}`}
+                  style={{ width: "80px", height: "80px" }}
+                />
+                <h5 className="mb-0">{testimonial.name}</h5>
+                <p>{testimonial.profession}</p>
+                <div className="testimonial-text bg-light text-center p-4">
+                  <p className="mb-0">{testimonial.text}</p>
+                </div>
+              </div>
+            ))}
+          </OwlCarousel>
         </div>
-        <div className="owl-carousel testimonial-carousel position-relative">
-        {[
-            {
-            img: "/src/assets/img/profile.png",
-            name: "Client Name",
-            profession: "Profession",
-            text: "Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit."
-            },
-            {
-            img: "/src/assets/img/profile.png",
-            name: "Client Name",
-            profession: "Profession",
-            text: "Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit."
-            },
-            {
-            img: "/src/assets/img/profile.png",
-            name: "Client Name",
-            profession: "Profession",
-            text: "Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit."
-            },
-            {
-            img: "/src/assets/img/profile.png",
-            name: "Client Name",
-            profession: "Profession",
-            text: "Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit."
-            }
-        ].map((testimonial, index) => (
-            <div className="testimonial-item text-center" key={index}>
-            <img
-                className="bg-light rounded-circle p-2 mx-auto mb-3"
-                src={testimonial.img}
-                alt={`Testimonial ${index + 1}`}
-                style={{ width: "80px", height: "80px" }}
-            />
-            <h5 className="mb-0">{testimonial.name}</h5>
-            <p>{testimonial.profession}</p>
-            <div className="testimonial-text bg-light text-center p-4">
-                <p className="mb-0">{testimonial.text}</p>
-            </div>
-            </div>
-        ))}
-        </div>
-    </div>
-    </div>
-    {/* Testimonial End */}
+      </div>
+      {/* Testimonial End */}
 
 
 
