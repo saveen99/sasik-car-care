@@ -229,8 +229,8 @@ function Home() {
                     </div>
                 </div>
                 <div className="col-md-6">
-                    <h3 className="mb-3">Why Choose Us?</h3>
-                    <p className="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
+                    <h3 className="mb-3">Our Diagnostic Testing Service</h3>
+                    <p className="mb-4">Using advanced technology, we identify and diagnose issues in your vehicle’s engine, transmission, brakes, and electronics. Our detailed analysis ensures accurate solutions to keep you safe on the road.</p>
                     <p><i className="fa fa-check text-success me-3"></i>Quality Servicing</p>
                     <p><i className="fa fa-check text-success me-3"></i>Expert Workers</p>
                     <p><i className="fa fa-check text-success me-3"></i>Modern Equipment</p>
@@ -246,8 +246,8 @@ function Home() {
                     </div>
                 </div>
                 <div className="col-md-6">
-                    <h3 className="mb-3">Our Engine Repair Expertise</h3>
-                    <p className="mb-4">Temporary time with a break. Painful moments, but a lot of experience. We offer detailed diagnostics and repairs. Our experts provide a comprehensive range of services to keep your engine running smoothly.</p>
+                    <h3 className="mb-3">Comprehensive Engine Servicing</h3>
+                    <p className="mb-4">Our thorough engine service includes component checks, fluid adjustments, and necessary repairs to enhance efficiency and fuel economy, reducing the risk of breakdowns and extending your engine's life.</p>
                     <p><i className="fa fa-check text-success me-3"></i>Quality Engine Diagnostics</p>
                     <p><i className="fa fa-check text-success me-3"></i>Certified Technicians</p>
                     <p><i className="fa fa-check text-success me-3"></i>State-of-the-Art Tools</p>
@@ -263,8 +263,8 @@ function Home() {
                     </div>
                 </div>
                 <div className="col-md-6">
-                    <h3 className="mb-3">Trusted Tire Replacement & Alignment</h3>
-                    <p className="mb-4">Temporary time with a break. Painful moments, but a lot of experience. Our tire services ensure your car is safe and well-equipped for any road. Trust our professionals to handle the replacement and alignment.</p>
+                    <h3 className="mb-3">Tires Replacement & Alignment</h3>
+                    <p className="mb-4">We provide top-brand tire replacements, professional installation, and alignment services to ensure optimal safety and performance. Our team delivers efficient and reliable tire care for all road conditions.</p>
                     <p><i className="fa fa-check text-success me-3"></i>Top Tire Brands</p>
                     <p><i className="fa fa-check text-success me-3"></i>Quick & Efficient Service</p>
                     <p><i className="fa fa-check text-success me-3"></i>Alignment & Balancing Included</p>
@@ -280,8 +280,8 @@ function Home() {
                     </div>
                 </div>
                 <div className="col-md-6">
-                    <h3 className="mb-3">Expert Oil Change Services</h3>
-                    <p className="mb-4">Temporary time with a break. Painful moments, but a lot of experience. Our oil changing service helps to keep your vehicle running at peak performance with the best oils and fluids.</p>
+                    <h3 className="mb-3">Efficient Oil Changing Service</h3>
+                    <p className="mb-4">We offer efficient oil changes with premium oils, fluid checks, and environmentally friendly disposal practices, keeping your engine running smoothly and efficiently while protecting the environment.</p>
                     <p><i className="fa fa-check text-success me-3"></i>Premium Oil Selection</p>
                     <p><i className="fa fa-check text-success me-3"></i>Efficient Fluid Maintenance</p>
                     <p><i className="fa fa-check text-success me-3"></i>Environmentally Friendly Disposal</p>
