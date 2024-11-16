@@ -35,7 +35,7 @@ function Contact() {
                   <div className="bg-light d-flex flex-column justify-content-center p-4">
                     <h5 className="text-uppercase">Email Address</h5>
                     <p className="m-0">
-                      <i className="fa fa-envelope-open text-primary me-2"></i>sasikcarcare@gmail.com
+                      <i className="fa fa-envelope-open text-primary me-2"></i>sasikservice@gmail.com
                     </p>
                   </div>
                 </div>
