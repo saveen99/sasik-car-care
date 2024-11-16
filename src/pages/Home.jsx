@@ -247,7 +247,7 @@ function Home() {
                 </div>
                 <div className="col-md-6">
                     <h3 className="mb-3">Comprehensive Engine Servicing</h3>
-                    <p className="mb-4">Our thorough engine service includes component checks, fluid adjustments, and necessary repairs to enhance efficiency and fuel economy, reducing the risk of breakdowns and extending your engine's life.</p>
+                    <p className="mb-4">Our thorough engine service includes component checks, fluid adjustments, and necessary repairs to enhance efficiency and fuel economy, reducing the risk of breakdowns and extending your engines life.</p>
                     <p><i className="fa fa-check text-success me-3"></i>Quality Engine Diagnostics</p>
                     <p><i className="fa fa-check text-success me-3"></i>Certified Technicians</p>
                     <p><i className="fa fa-check text-success me-3"></i>State-of-the-Art Tools</p>
