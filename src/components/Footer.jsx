@@ -26,11 +26,11 @@ function Footer() {
             </div>
             <div className="col-lg-3 col-md-6">
                 <h4 className="text-light mb-4">Services</h4>
-                <a className="btn btn-link" href="#">Diagnostic Test</a>
-                <a className="btn btn-link" href="#">Engine Servicing</a>
-                <a className="btn btn-link" href="#">Tires Replacement</a>
-                <a className="btn btn-link" href="#">Oil Changing</a>
-                <a className="btn btn-link" href="#">Vacuum Cleaning</a>
+                <a className="btn btn-link" href="/service">Diagnostic Test</a>
+                <a className="btn btn-link" href="/service">Engine Servicing</a>
+                <a className="btn btn-link" href="/service">Tires Replacement</a>
+                <a className="btn btn-link" href="/service">Oil Changing</a>
+                <a className="btn btn-link" href="/service">Vacuum Cleaning</a>
             </div>
             <div className="col-lg-3 col-md-6">
                 <img 
