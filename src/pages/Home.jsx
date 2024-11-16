@@ -418,26 +418,26 @@ function Home() {
             {[
               {
                 img: "/src/assets/img/testimonial-1.jpg",
-                name: "Michael Ross",
-                profession: "Business Owner",
+                name: "Full Name",
+                profession: "",
                 text: "Sasik Service Station provides exceptional service every time I visit. The team is professional, and my vehicle is always well-maintained and running smoothly. Highly recommend!"
                 },
                 {
                 img: "/src/assets/img/testimonial-2.jpg",
-                name: "Sarah Johnson",
-                profession: "Teacher",
+                name: "Full Name",
+                profession: "",
                 text: "I am always impressed by the thorough and efficient service I receive. The team is friendly and ensures my car is in top shape, making my daily commute smooth and worry-free."
                 },
                 {
                 img: "/src/assets/img/testimonial-3.jpg",
-                name: "Daniel Cooper",
-                profession: "IT Specialist",
+                name: "Full Name",
+                profession: "",
                 text: "The quality of service and attention to detail are exceptional. The team at Sasik Service Station really knows how to take care of cars, and I wouldn’t trust anyone else with mine."
                 },
                 {
                 img: "/src/assets/img/testimonial-4.jpg",
-                name: "Emily Carter",
-                profession: "Entrepreneur",
+                name: "Full Name",
+                profession: "",
                 text: "Maintaining my car is crucial for my busy schedule. Sasik Service Station always provides reliable service, and I can count on them to keep me on the road safely and on time."
                 },
                 // Add additional testimonials as needed
