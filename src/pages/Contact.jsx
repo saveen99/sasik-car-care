@@ -33,25 +33,25 @@ function Contact() {
               <div className="row gy-4">
                 <div className="col-md-4">
                   <div className="bg-light d-flex flex-column justify-content-center p-4">
-                    <h5 className="text-uppercase">Booking</h5>
+                    <h5 className="text-uppercase">Email Address</h5>
                     <p className="m-0">
-                      <i className="fa fa-envelope-open text-primary me-2"></i>book@example.com
+                      <i className="fa fa-envelope-open text-primary me-2"></i>sasikcarcare@gmail.com
                     </p>
                   </div>
                 </div>
                 <div className="col-md-4">
                   <div className="bg-light d-flex flex-column justify-content-center p-4">
-                    <h5 className="text-uppercase">General</h5>
+                    <h5 className="text-uppercase">Contact Number</h5>
                     <p className="m-0">
-                      <i className="fa fa-envelope-open text-primary me-2"></i>info@example.com
+                      <i className="fa fa-envelope-open text-primary me-2"></i>037 2267991
                     </p>
                   </div>
                 </div>
                 <div className="col-md-4">
                   <div className="bg-light d-flex flex-column justify-content-center p-4">
-                    <h5 className="text-uppercase">Technical</h5>
+                    <h5 className="text-uppercase">Location</h5>
                     <p className="m-0">
-                      <i className="fa fa-envelope-open text-primary me-2"></i>tech@example.com
+                      <i className="fa fa-envelope-open text-primary me-2"></i>Bambaragammana, Wariyapola
                     </p>
                   </div>
                 </div>
