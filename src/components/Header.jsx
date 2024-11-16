@@ -95,15 +95,9 @@ function Header() {
                 </NavLink>
               </div>
             </div>
-            <NavLink
-              to="/contact"
-              className={({ isActive }) => `nav-item nav-link ${isActive ? 'active' : ''}`}
-            >
-              Contact
-            </NavLink>
           </div>
           <NavLink to="/contact" className="btn btn-primary py-4 px-lg-5 d-none d-lg-block">
-            Contact Us !<i className="fa fa-arrow-right ms-3"></i>
+            Contact Us<i className="fa fa-arrow-right ms-3"></i>
           </NavLink>
         </div>
       </nav>
