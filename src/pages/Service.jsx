@@ -96,13 +96,10 @@ function Service() {
                     </div>
                     <div className="col-md-6">
                       <h3 className="mb-3">
-                        15 Years Of Experience In Auto Servicing
+                      Our Diagnostic Testing Service
                       </h3>
                       <p className="mb-4">
-                        Tempor erat elitr rebum at clita. Diam dolor diam ipsum
-                        sit. Aliqu diam amet diam et eos. Clita erat ipsum et
-                        lorem et sit, sed stet lorem sit clita duo justo magna
-                        dolore erat amet
+                      Using advanced technology, we identify and diagnose issues in your vehicle’s engine, transmission, brakes, and electronics. Our detailed analysis ensures accurate solutions to keep you safe on the road.
                       </p>
                       <p>
                         <i className="fa fa-check text-success me-3"></i>Quality
@@ -127,13 +124,65 @@ function Service() {
                   </div>
                 </div>
                 {/* Repeat similar structure for tab-pane-2, tab-pane-3, and tab-pane-4 */}
+
+                <div className="tab-pane fade" id="tab-pane-2">
+                <div className="row g-4">
+                <div className="col-md-6" style={{ minHeight: '350px' }}>
+                    <div className="position-relative h-100">
+                    <img className="position-absolute img-fluid w-100 h-100" src="/src/assets/img/service-2.jpg" style={{ objectFit: 'cover' }} alt="Engine Servicing" />
+                    </div>
+                </div>
+                <div className="col-md-6">
+                    <h3 className="mb-3">Comprehensive Engine Servicing</h3>
+                    <p className="mb-4">Our thorough engine service includes component checks, fluid adjustments, and necessary repairs to enhance efficiency and fuel economy, reducing the risk of breakdowns and extending your engine's life.</p>
+                    <p><i className="fa fa-check text-success me-3"></i>Quality Engine Diagnostics</p>
+                    <p><i className="fa fa-check text-success me-3"></i>Certified Technicians</p>
+                    <p><i className="fa fa-check text-success me-3"></i>State-of-the-Art Tools</p>
+                    <a href="#" className="btn btn-primary py-3 px-5 mt-3">Read More<i className="fa fa-arrow-right ms-3"></i></a>
+                </div>
+                </div>
+            </div>
+            <div className="tab-pane fade" id="tab-pane-3">
+                <div className="row g-4">
+                <div className="col-md-6" style={{ minHeight: '350px' }}>
+                    <div className="position-relative h-100">
+                    <img className="position-absolute img-fluid w-100 h-100" src="/src/assets/img/service-3.jpg" style={{ objectFit: 'cover' }} alt="Tires Replacement" />
+                    </div>
+                </div>
+                <div className="col-md-6">
+                    <h3 className="mb-3">Tires Replacement & Alignment</h3>
+                    <p className="mb-4">We provide top-brand tire replacements, professional installation, and alignment services to ensure optimal safety and performance. Our team delivers efficient and reliable tire care for all road conditions.</p>
+                    <p><i className="fa fa-check text-success me-3"></i>Top Tire Brands</p>
+                    <p><i className="fa fa-check text-success me-3"></i>Quick & Efficient Service</p>
+                    <p><i className="fa fa-check text-success me-3"></i>Alignment & Balancing Included</p>
+                    <a href="#" className="btn btn-primary py-3 px-5 mt-3">Read More<i className="fa fa-arrow-right ms-3"></i></a>
+                </div>
+                </div>
+            </div>
+            <div className="tab-pane fade" id="tab-pane-4">
+                <div className="row g-4">
+                <div className="col-md-6" style={{ minHeight: '350px' }}>
+                    <div className="position-relative h-100">
+                    <img className="position-absolute img-fluid w-100 h-100" src="/src/assets/img/service-4.jpg" style={{ objectFit: 'cover' }} alt="Oil Changing" />
+                    </div>
+                </div>
+                <div className="col-md-6">
+                    <h3 className="mb-3">Efficient Oil Changing Service</h3>
+                    <p className="mb-4">We offer efficient oil changes with premium oils, fluid checks, and environmentally friendly disposal practices, keeping your engine running smoothly and efficiently while protecting the environment.</p>
+                    <p><i className="fa fa-check text-success me-3"></i>Premium Oil Selection</p>
+                    <p><i className="fa fa-check text-success me-3"></i>Efficient Fluid Maintenance</p>
+                    <p><i className="fa fa-check text-success me-3"></i>Environmentally Friendly Disposal</p>
+                    <a href="#" className="btn btn-primary py-3 px-5 mt-3">Read More<i className="fa fa-arrow-right ms-3"></i></a>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-      {/* Service End */}
     </div>
+  </div>
+{/* Service End */}
+</div>
   );
 }
 
