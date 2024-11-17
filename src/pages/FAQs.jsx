@@ -1,4 +1,41 @@
+import { useState } from "react";
+
 function FAQs() {
+
+  const [openQuestion, setOpenQuestion] = useState(null);
+
+  const toggleQuestion = (index) => {
+    setOpenQuestion(openQuestion === index ? null : index);
+  };
+
+  const faqs = [
+    {
+      question: "What services do you offer?",
+      answer:
+        "We offer a wide range of car services, including oil changes, tire rotations, engine diagnostics, and more.",
+    },
+    {
+      question: "How can I contact customer support?",
+      answer:
+        "You can reach us through our contact page, by calling our support number, or via email at sasikservice@gmail.com.",
+    },
+    {
+      question: "Do you offer emergency services?",
+      answer:
+        "Yes, we provide 24/7 emergency services for breakdowns and urgent repairs.",
+    },
+    {
+      question: "Can I schedule a service online?",
+      answer:
+        "Absolutely! You can book an appointment through our mobile app.",
+    },
+    {
+      question: "What payment methods do you accept?",
+      answer:
+        "We accept cash, credit/debit cards, and digital wallets like PayPal and Google Pay.",
+    },
+  ];
+
   return (
     <div>
       {/* Page Header Start */}
@@ -31,22 +68,38 @@ function FAQs() {
         </div>
       </div>
       {/* Page Header End */}
-      {/* Cookies Start */}
-      <div className="container mx-auto p-6">
-        <h1 className="text-3xl font-bold mb-4">Frequently Asked Questions</h1>
+      {/* FAQs Section Start */}
+      <div className="container mx-auto px-4 py-10">
+        <h2 className="text-3xl font-semibold mb-6 text-center text-gray-800">
+          Frequently Asked Questions
+        </h2>
         <div className="space-y-4">
-          <div>
-            <h2 className="text-xl font-semibold">Q: What services do you offer?</h2>
-            <p className="text-gray-700">A: We offer a wide range of services including...</p>
-          </div>
-          <div>
-            <h2 className="text-xl font-semibold">Q: How can I contact customer support?</h2>
-            <p className="text-gray-700">A: You can reach us through...</p>
-          </div>
-          {/* Add more FAQs */}
+          {faqs.map((faq, index) => (
+            <div
+              key={index}
+              className="border rounded-md p-4 cursor-pointer bg-gray-50 hover:bg-gray-100"
+              onClick={() => toggleQuestion(index)}
+            >
+              <div className="flex justify-between items-center">
+                <h3 className="text-lg font-bold text-gray-800">
+                  Q: {faq.question}
+                </h3>
+                <span
+                  className={`transform transition-transform ${
+                    openQuestion === index ? "rotate-180" : ""
+                  }`}
+                >
+                  ▼
+                </span>
+              </div>
+              {openQuestion === index && (
+                <p className="mt-3 text-gray-600">A: {faq.answer}</p>
+              )}
+            </div>
+          ))}
         </div>
       </div>
-      {/* Cookies End */}
+      {/* FAQs Section End */}
     </div>
     
   )
