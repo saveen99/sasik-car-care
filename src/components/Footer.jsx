@@ -50,10 +50,10 @@ function Footer() {
                 </div>
                 <div className="col-md-6 text-center text-md-end">
                 <div className="footer-menu">
-                    <a href="#">Home</a>
-                    <a href="#">Cookies</a>
-                    <a href="#">Help</a>
-                    <a href="#">FAQs</a>
+                    <a href="/">Home</a>
+                    <a href="/cookies">Cookies</a>
+                    <a href="/help">Help</a>
+                    <a href="/faqs">FAQs</a>
                 </div>
                 </div>
             </div>
