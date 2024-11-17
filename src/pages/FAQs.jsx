@@ -9,7 +9,7 @@ function FAQs() {
         <div className="container-fluid page-header-inner py-5">
           <div className="container text-center">
             <h1 className="display-3 text-white mb-3 animated slideInDown">
-              Cookies
+              FAQs
             </h1>
             <nav aria-label="breadcrumb">
               <ol className="breadcrumb justify-content-center text-uppercase">
@@ -23,7 +23,7 @@ function FAQs() {
                   className="breadcrumb-item text-white active"
                   aria-current="page"
                 >
-                  Cookies
+                  FAQs
                 </li>
               </ol>
             </nav>
