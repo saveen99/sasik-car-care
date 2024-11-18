@@ -1,10 +1,10 @@
-## Sasik Service Station Website Using React 🌟
+## Sasik Service Station Website Using React
 
 A React website built for Qualified Car Repair Service Center, This project showcasing UI design and functionality and designed to be lightweight
 
 ---
 
-### 📸 Home Page
+### Home Page
 
 ![Main Screenshot](.readme/1.png)
 ![Main Screenshot](.readme/2.png)
@@ -17,7 +17,7 @@ A React website built for Qualified Car Repair Service Center, This project show
 
 ---
 
-### 🚀 Getting Started
+### Getting Started
 
 Follow these steps to run the project locally.
 
@@ -42,7 +42,7 @@ npm run dev
 # http://localhost:3000
 
 ```
-## 📄 License
+## License
 
 This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
 
