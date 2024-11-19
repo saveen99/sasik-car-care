@@ -34,7 +34,7 @@ function Cookies() {
       {/* Cookies Policy Section Start */}
       <div className="container mx-auto px-4 py-10">
         <h2 className="text-3xl font-semibold mb-6 text-center text-gray-800">
-          Understanding Our Cookies Policy
+          Our Cookies Policy
         </h2>
         <p className="text-gray-700 mb-6">
           We use cookies to improve your browsing experience, analyze website traffic, and personalize content. Cookies are small text files that are stored on your device when you visit our website. This helps us understand how you interact with our services and enhances your overall experience.
