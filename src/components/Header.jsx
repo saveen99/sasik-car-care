@@ -76,6 +76,12 @@ function Header() {
             >
               Services
             </NavLink>
+            <NavLink
+              to="/booking"
+              className={({ isActive }) => `nav-item nav-link ${isActive ? 'active' : ''}`}
+            >
+              Booking
+            </NavLink>
             <div className="nav-item dropdown">
               <a href="#" className="nav-link dropdown-toggle" data-bs-toggle="dropdown">
                 Pages

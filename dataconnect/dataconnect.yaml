@@ -1,0 +1,12 @@
+specVersion: "v1beta"
+serviceId: "sasik-car-care"
+location: "us-central1"
+schema:
+  source: "./schema"
+  datasource:
+    postgresql:
+      database: "fdcdb"
+      cloudSql:
+        instanceId: "sasik-car-care-fdc"
+      # schemaValidation: "COMPATIBLE"
+connectorDirs: ["./connector"]
