@@ -60,6 +60,45 @@ function Booking() {
       </div>
       {/* Page Header End */}
 
+      {/* Service Start */}
+      <div className="container-xxl py-5">
+          <div className="container">
+              <div className="row g-4">
+                  <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                      <div className="d-flex py-5 px-4">
+                          <i className="fa fa-certificate fa-3x text-primary flex-shrink-0"></i>
+                          <div className="ps-4">
+                              <h5 className="mb-3">Quality Servicing</h5>
+                              <p>High-standard, efficient vehicle maintenance ensuring reliability and customer satisfaction.</p>
+                              <a className="text-secondary border-bottom" href="">Read More</a>
+                          </div>
+                      </div>
+                  </div>
+                  <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                      <div className="d-flex bg-light py-5 px-4">
+                          <i className="fa fa-users-cog fa-3x text-primary flex-shrink-0"></i>
+                          <div className="ps-4">
+                              <h5 className="mb-3">Expert Workers</h5>
+                              <p>Skilled professionals expertly handle diverse vehicle issues with precision.</p>
+                              <a className="text-secondary border-bottom" href="">Read More</a>
+                          </div>
+                      </div>
+                  </div>
+                  <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                      <div className="d-flex py-5 px-4">
+                          <i className="fa fa-tools fa-3x text-primary flex-shrink-0"></i>
+                          <div className="ps-4">
+                              <h5 className="mb-3">Modern Equipment</h5>
+                              <p>Advanced tools enable efficient, accurate vehicle diagnostics and repairs.</p>
+                              <a className="text-secondary border-bottom" href="">Read More</a>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      {/* Service End */}
+
       {/* Booking Form Start */}
       <div className="container-fluid bg-secondary booking my-5 wow fadeInUp" data-wow-delay="0.1s">
         <div className="container">
