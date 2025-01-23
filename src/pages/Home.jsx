@@ -59,7 +59,6 @@ function Home() {
       </div>
       {/* Carousel End */}
 
-
       {/* Service Start */}
       <div className="container-xxl py-5">
           <div className="container">
@@ -98,7 +97,6 @@ function Home() {
           </div>
       </div>
       {/* Service End */}
-
 
       {/* About Start */}
         <div className="container-xxl py-5">
@@ -158,8 +156,6 @@ function Home() {
         </div>
         </div>
         {/* About End */}
-
-
 
       {/* Fact Start */}
       <div className="container-fluid fact bg-dark my-5 py-5">
@@ -295,8 +291,6 @@ function Home() {
     </div>
     </div>
     {/* Service End */}
-
-
 
     {/* Team Start */}
     <div className="container-xxl py-5">
