@@ -18,7 +18,6 @@ function About() {
       </div>
       {/* Page Header End */}
 
-
       {/* Service Start */}
       <div className="container-xxl py-5">
           <div className="container">
@@ -57,7 +56,6 @@ function About() {
           </div>
       </div>
       {/* Service End */}
-
 
       {/* About Start */}
       <div className="container-xxl py-5">
@@ -118,7 +116,6 @@ function About() {
       </div>
       {/* About End */}
 
-
       {/* Fact Start */}
       <div className="container-fluid fact bg-dark my-5 py-5">
           <div className="container">
@@ -147,7 +144,6 @@ function About() {
           </div>
       </div>
       {/* Fact End */}
-
 
       {/* Team Start */}
     <div className="container-xxl py-5">
@@ -241,8 +237,8 @@ function About() {
         </div>
     </div>
     {/* Team End */}
+
     </div>
-    
   );
 }
 
