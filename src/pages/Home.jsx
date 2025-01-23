@@ -59,7 +59,6 @@ function Home() {
       </div>
       {/* Carousel End */}
 
-
       {/* Service Start */}
       <div className="container-xxl py-5">
           <div className="container">
@@ -98,7 +97,6 @@ function Home() {
           </div>
       </div>
       {/* Service End */}
-
 
       {/* About Start */}
         <div className="container-xxl py-5">
@@ -159,307 +157,303 @@ function Home() {
         </div>
         {/* About End */}
 
-
-
-      {/* Fact Start */}
-      <div className="container-fluid fact bg-dark my-5 py-5">
-          <div className="container">
-              <div className="row g-4">
-                  <div className="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.1s">
-                      <i className="fa fa-check fa-2x text-white mb-3"></i>
-                      <h2 className="text-white mb-2" data-toggle="counter-up">15</h2>
-                      <p className="text-white mb-0">Years Experience</p>
-                  </div>
-                  <div className="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.3s">
-                      <i className="fa fa-users-cog fa-2x text-white mb-3"></i>
-                      <h2 className="text-white mb-2" data-toggle="counter-up">5</h2>
-                      <p className="text-white mb-0">Expert Technicians</p>
-                  </div>
-                  <div className="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.5s">
-                      <i className="fa fa-users fa-2x text-white mb-3"></i>
-                      <h2 className="text-white mb-2" data-toggle="counter-up">500+</h2>
-                      <p className="text-white mb-0">Satisfied Clients</p>
-                  </div>
-                  <div className="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.7s">
-                      <i className="fa fa-car fa-2x text-white mb-3"></i>
-                      <h2 className="text-white mb-2" data-toggle="counter-up">1000+</h2>
-                      <p className="text-white mb-0">Compleate Projects</p>
-                  </div>
-              </div>
-          </div>
-      </div>
-      {/* Fact End */}
-
-
-    {/* Service Start */}
-    <div className="container-xxl service py-5">
-    <div className="container">
-        <div className="text-center wow fadeInUp" data-wow-delay="0.1s">
-        <h6 className="text-primary text-uppercase">Our Services</h6>
-        <h1 className="mb-5">Explore Our Services</h1>
-        </div>
-        <div className="row g-4 wow fadeInUp" data-wow-delay="0.3s">
-        <div className="col-lg-4">
-            <div className="nav w-100 nav-pills me-4">
-            <button className="nav-link w-100 d-flex align-items-center text-start p-4 mb-4 active" data-bs-toggle="pill" data-bs-target="#tab-pane-1" type="button">
-                <i className="fa fa-car-side fa-2x me-3"></i>
-                <h4 className="m-0">Diagnostic Test</h4>
-            </button>
-            <button className="nav-link w-100 d-flex align-items-center text-start p-4 mb-4" data-bs-toggle="pill" data-bs-target="#tab-pane-2" type="button">
-                <i className="fa fa-car fa-2x me-3"></i>
-                <h4 className="m-0">Engine Servicing</h4>
-            </button>
-            <button className="nav-link w-100 d-flex align-items-center text-start p-4 mb-4" data-bs-toggle="pill" data-bs-target="#tab-pane-3" type="button">
-                <i className="fa fa-cog fa-2x me-3"></i>
-                <h4 className="m-0">Tires Replacement</h4>
-            </button>
-            <button className="nav-link w-100 d-flex align-items-center text-start p-4 mb-0" data-bs-toggle="pill" data-bs-target="#tab-pane-4" type="button">
-                <i className="fa fa-oil-can fa-2x me-3"></i>
-                <h4 className="m-0">Oil Changing</h4>
-            </button>
-            </div>
-        </div>
-        <div className="col-lg-8">
-            <div className="tab-content w-100">
-            <div className="tab-pane fade show active" id="tab-pane-1">
+        {/* Fact Start */}
+        <div className="container-fluid fact bg-dark my-5 py-5">
+            <div className="container">
                 <div className="row g-4">
-                <div className="col-md-6" style={{ minHeight: '350px' }}>
-                    <div className="position-relative h-100">
-                    <img className="position-absolute img-fluid w-100 h-100" src="/src/assets/img/service-1.jpg" style={{ objectFit: 'cover' }} alt="Diagnostic Test" />
+                    <div className="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.1s">
+                        <i className="fa fa-check fa-2x text-white mb-3"></i>
+                        <h2 className="text-white mb-2" data-toggle="counter-up">15</h2>
+                        <p className="text-white mb-0">Years Experience</p>
+                    </div>
+                    <div className="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.3s">
+                        <i className="fa fa-users-cog fa-2x text-white mb-3"></i>
+                        <h2 className="text-white mb-2" data-toggle="counter-up">5</h2>
+                        <p className="text-white mb-0">Expert Technicians</p>
+                    </div>
+                    <div className="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.5s">
+                        <i className="fa fa-users fa-2x text-white mb-3"></i>
+                        <h2 className="text-white mb-2" data-toggle="counter-up">500+</h2>
+                        <p className="text-white mb-0">Satisfied Clients</p>
+                    </div>
+                    <div className="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.7s">
+                        <i className="fa fa-car fa-2x text-white mb-3"></i>
+                        <h2 className="text-white mb-2" data-toggle="counter-up">1000+</h2>
+                        <p className="text-white mb-0">Compleate Projects</p>
                     </div>
                 </div>
-                <div className="col-md-6">
-                    <h3 className="mb-3">Our Diagnostic Testing Service</h3>
-                    <p className="mb-4">Using advanced technology, we identify and diagnose issues in your vehicle’s engine, transmission, brakes, and electronics. Our detailed analysis ensures accurate solutions to keep you safe on the road.</p>
-                    <p><i className="fa fa-check text-success me-3"></i>Quality Servicing</p>
-                    <p><i className="fa fa-check text-success me-3"></i>Expert Workers</p>
-                    <p><i className="fa fa-check text-success me-3"></i>Modern Equipment</p>
-                    <a href="#" className="btn btn-primary py-3 px-5 mt-3">Read More<i className="fa fa-arrow-right ms-3"></i></a>
-                </div>
-                </div>
-            </div>
-            <div className="tab-pane fade" id="tab-pane-2">
-                <div className="row g-4">
-                <div className="col-md-6" style={{ minHeight: '350px' }}>
-                    <div className="position-relative h-100">
-                    <img className="position-absolute img-fluid w-100 h-100" src="/src/assets/img/service-2.jpg" style={{ objectFit: 'cover' }} alt="Engine Servicing" />
-                    </div>
-                </div>
-                <div className="col-md-6">
-                    <h3 className="mb-3">Comprehensive Engine Servicing</h3>
-                    <p className="mb-4">Our thorough engine service includes component checks, fluid adjustments, and necessary repairs to enhance efficiency and fuel economy, reducing the risk of breakdowns and extending your engines life.</p>
-                    <p><i className="fa fa-check text-success me-3"></i>Quality Engine Diagnostics</p>
-                    <p><i className="fa fa-check text-success me-3"></i>Certified Technicians</p>
-                    <p><i className="fa fa-check text-success me-3"></i>State-of-the-Art Tools</p>
-                    <a href="#" className="btn btn-primary py-3 px-5 mt-3">Read More<i className="fa fa-arrow-right ms-3"></i></a>
-                </div>
-                </div>
-            </div>
-            <div className="tab-pane fade" id="tab-pane-3">
-                <div className="row g-4">
-                <div className="col-md-6" style={{ minHeight: '350px' }}>
-                    <div className="position-relative h-100">
-                    <img className="position-absolute img-fluid w-100 h-100" src="/src/assets/img/service-3.jpg" style={{ objectFit: 'cover' }} alt="Tires Replacement" />
-                    </div>
-                </div>
-                <div className="col-md-6">
-                    <h3 className="mb-3">Tires Replacement & Alignment</h3>
-                    <p className="mb-4">We provide top-brand tire replacements, professional installation, and alignment services to ensure optimal safety and performance. Our team delivers efficient and reliable tire care for all road conditions.</p>
-                    <p><i className="fa fa-check text-success me-3"></i>Top Tire Brands</p>
-                    <p><i className="fa fa-check text-success me-3"></i>Quick & Efficient Service</p>
-                    <p><i className="fa fa-check text-success me-3"></i>Alignment & Balancing Included</p>
-                    <a href="#" className="btn btn-primary py-3 px-5 mt-3">Read More<i className="fa fa-arrow-right ms-3"></i></a>
-                </div>
-                </div>
-            </div>
-            <div className="tab-pane fade" id="tab-pane-4">
-                <div className="row g-4">
-                <div className="col-md-6" style={{ minHeight: '350px' }}>
-                    <div className="position-relative h-100">
-                    <img className="position-absolute img-fluid w-100 h-100" src="/src/assets/img/service-4.jpg" style={{ objectFit: 'cover' }} alt="Oil Changing" />
-                    </div>
-                </div>
-                <div className="col-md-6">
-                    <h3 className="mb-3">Efficient Oil Changing Service</h3>
-                    <p className="mb-4">We offer efficient oil changes with premium oils, fluid checks, and environmentally friendly disposal practices, keeping your engine running smoothly and efficiently while protecting the environment.</p>
-                    <p><i className="fa fa-check text-success me-3"></i>Premium Oil Selection</p>
-                    <p><i className="fa fa-check text-success me-3"></i>Efficient Fluid Maintenance</p>
-                    <p><i className="fa fa-check text-success me-3"></i>Environmentally Friendly Disposal</p>
-                    <a href="#" className="btn btn-primary py-3 px-5 mt-3">Read More<i className="fa fa-arrow-right ms-3"></i></a>
-                </div>
-                </div>
-            </div>
             </div>
         </div>
-        </div>
-    </div>
-    </div>
-    {/* Service End */}
+        {/* Fact End */}
 
 
-
-    {/* Team Start */}
-    <div className="container-xxl py-5">
+        {/* Service Start */}
+        <div className="container-xxl service py-5">
         <div className="container">
             <div className="text-center wow fadeInUp" data-wow-delay="0.1s">
-                <h6 className="text-primary text-uppercase">Our Technicians</h6>
-                <h1 className="mb-5">Our Expert Technicians</h1>
+            <h6 className="text-primary text-uppercase">Our Services</h6>
+            <h1 className="mb-5">Explore Our Services</h1>
             </div>
-            <div className="row g-4 justify-content-center">
-                <div className="col-lg-2 col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div className="team-item">
-                        <div className="position-relative overflow-hidden">
-                            <img className="img-fluid" src="/src/assets/img/profile.png" alt=""/>
-                            <div className="team-overlay position-absolute start-0 top-0 w-100 h-100">
-                                <a className="btn btn-square mx-1" href=""><i className="fab fa-facebook-f"></i></a>
-                                <a className="btn btn-square mx-1" href=""><i className="fab fa-twitter"></i></a>
-                                <a className="btn btn-square mx-1" href=""><i className="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                        <div className="bg-light text-center p-4">
-                            <h5 className="fw-bold mb-0">Full Name</h5>
-                            <small>Designation</small>
+            <div className="row g-4 wow fadeInUp" data-wow-delay="0.3s">
+            <div className="col-lg-4">
+                <div className="nav w-100 nav-pills me-4">
+                <button className="nav-link w-100 d-flex align-items-center text-start p-4 mb-4 active" data-bs-toggle="pill" data-bs-target="#tab-pane-1" type="button">
+                    <i className="fa fa-car-side fa-2x me-3"></i>
+                    <h4 className="m-0">Diagnostic Test</h4>
+                </button>
+                <button className="nav-link w-100 d-flex align-items-center text-start p-4 mb-4" data-bs-toggle="pill" data-bs-target="#tab-pane-2" type="button">
+                    <i className="fa fa-car fa-2x me-3"></i>
+                    <h4 className="m-0">Engine Servicing</h4>
+                </button>
+                <button className="nav-link w-100 d-flex align-items-center text-start p-4 mb-4" data-bs-toggle="pill" data-bs-target="#tab-pane-3" type="button">
+                    <i className="fa fa-cog fa-2x me-3"></i>
+                    <h4 className="m-0">Tires Replacement</h4>
+                </button>
+                <button className="nav-link w-100 d-flex align-items-center text-start p-4 mb-0" data-bs-toggle="pill" data-bs-target="#tab-pane-4" type="button">
+                    <i className="fa fa-oil-can fa-2x me-3"></i>
+                    <h4 className="m-0">Oil Changing</h4>
+                </button>
+                </div>
+            </div>
+            <div className="col-lg-8">
+                <div className="tab-content w-100">
+                <div className="tab-pane fade show active" id="tab-pane-1">
+                    <div className="row g-4">
+                    <div className="col-md-6" style={{ minHeight: '350px' }}>
+                        <div className="position-relative h-100">
+                        <img className="position-absolute img-fluid w-100 h-100" src="/src/assets/img/service-1.jpg" style={{ objectFit: 'cover' }} alt="Diagnostic Test" />
                         </div>
                     </div>
-                </div>
-                <div className="col-lg-2 col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <div className="team-item">
-                        <div className="position-relative overflow-hidden">
-                            <img className="img-fluid" src="/src/assets/img/profile.png" alt=""/>
-                            <div className="team-overlay position-absolute start-0 top-0 w-100 h-100">
-                                <a className="btn btn-square mx-1" href=""><i className="fab fa-facebook-f"></i></a>
-                                <a className="btn btn-square mx-1" href=""><i className="fab fa-twitter"></i></a>
-                                <a className="btn btn-square mx-1" href=""><i className="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                        <div className="bg-light text-center p-4">
-                            <h5 className="fw-bold mb-0">Full Name</h5>
-                            <small>Designation</small>
-                        </div>
+                    <div className="col-md-6">
+                        <h3 className="mb-3">Our Diagnostic Testing Service</h3>
+                        <p className="mb-4">Using advanced technology, we identify and diagnose issues in your vehicle’s engine, transmission, brakes, and electronics. Our detailed analysis ensures accurate solutions to keep you safe on the road.</p>
+                        <p><i className="fa fa-check text-success me-3"></i>Quality Servicing</p>
+                        <p><i className="fa fa-check text-success me-3"></i>Expert Workers</p>
+                        <p><i className="fa fa-check text-success me-3"></i>Modern Equipment</p>
+                        <a href="#" className="btn btn-primary py-3 px-5 mt-3">Read More<i className="fa fa-arrow-right ms-3"></i></a>
+                    </div>
                     </div>
                 </div>
-                <div className="col-lg-2 col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div className="team-item">
-                        <div className="position-relative overflow-hidden">
-                            <img className="img-fluid" src="/src/assets/img/profile.png" alt=""/>
-                            <div className="team-overlay position-absolute start-0 top-0 w-100 h-100">
-                                <a className="btn btn-square mx-1" href=""><i className="fab fa-facebook-f"></i></a>
-                                <a className="btn btn-square mx-1" href=""><i className="fab fa-twitter"></i></a>
-                                <a className="btn btn-square mx-1" href=""><i className="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                        <div className="bg-light text-center p-4">
-                            <h5 className="fw-bold mb-0">Full Name</h5>
-                            <small>Designation</small>
+                <div className="tab-pane fade" id="tab-pane-2">
+                    <div className="row g-4">
+                    <div className="col-md-6" style={{ minHeight: '350px' }}>
+                        <div className="position-relative h-100">
+                        <img className="position-absolute img-fluid w-100 h-100" src="/src/assets/img/service-2.jpg" style={{ objectFit: 'cover' }} alt="Engine Servicing" />
                         </div>
                     </div>
-                </div>
-                <div className="col-lg-2 col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
-                    <div className="team-item">
-                        <div className="position-relative overflow-hidden">
-                            <img className="img-fluid" src="/src/assets/img/profile.png" alt=""/>
-                            <div className="team-overlay position-absolute start-0 top-0 w-100 h-100">
-                                <a className="btn btn-square mx-1" href=""><i className="fab fa-facebook-f"></i></a>
-                                <a className="btn btn-square mx-1" href=""><i className="fab fa-twitter"></i></a>
-                                <a className="btn btn-square mx-1" href=""><i className="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                        <div className="bg-light text-center p-4">
-                            <h5 className="fw-bold mb-0">Full Name</h5>
-                            <small>Designation</small>
-                        </div>
+                    <div className="col-md-6">
+                        <h3 className="mb-3">Comprehensive Engine Servicing</h3>
+                        <p className="mb-4">Our thorough engine service includes component checks, fluid adjustments, and necessary repairs to enhance efficiency and fuel economy, reducing the risk of breakdowns and extending your engines life.</p>
+                        <p><i className="fa fa-check text-success me-3"></i>Quality Engine Diagnostics</p>
+                        <p><i className="fa fa-check text-success me-3"></i>Certified Technicians</p>
+                        <p><i className="fa fa-check text-success me-3"></i>State-of-the-Art Tools</p>
+                        <a href="#" className="btn btn-primary py-3 px-5 mt-3">Read More<i className="fa fa-arrow-right ms-3"></i></a>
+                    </div>
                     </div>
                 </div>
-                <div className="col-lg-2 col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.9s">
-                    <div className="team-item">
-                        <div className="position-relative overflow-hidden">
-                            <img className="img-fluid" src="/src/assets/img/profile.png" alt=""/>
-                            <div className="team-overlay position-absolute start-0 top-0 w-100 h-100">
-                                <a className="btn btn-square mx-1" href=""><i className="fab fa-facebook-f"></i></a>
-                                <a className="btn btn-square mx-1" href=""><i className="fab fa-twitter"></i></a>
-                                <a className="btn btn-square mx-1" href=""><i className="fab fa-instagram"></i></a>
+                <div className="tab-pane fade" id="tab-pane-3">
+                    <div className="row g-4">
+                    <div className="col-md-6" style={{ minHeight: '350px' }}>
+                        <div className="position-relative h-100">
+                        <img className="position-absolute img-fluid w-100 h-100" src="/src/assets/img/service-3.jpg" style={{ objectFit: 'cover' }} alt="Tires Replacement" />
+                        </div>
+                    </div>
+                    <div className="col-md-6">
+                        <h3 className="mb-3">Tires Replacement & Alignment</h3>
+                        <p className="mb-4">We provide top-brand tire replacements, professional installation, and alignment services to ensure optimal safety and performance. Our team delivers efficient and reliable tire care for all road conditions.</p>
+                        <p><i className="fa fa-check text-success me-3"></i>Top Tire Brands</p>
+                        <p><i className="fa fa-check text-success me-3"></i>Quick & Efficient Service</p>
+                        <p><i className="fa fa-check text-success me-3"></i>Alignment & Balancing Included</p>
+                        <a href="#" className="btn btn-primary py-3 px-5 mt-3">Read More<i className="fa fa-arrow-right ms-3"></i></a>
+                    </div>
+                    </div>
+                </div>
+                <div className="tab-pane fade" id="tab-pane-4">
+                    <div className="row g-4">
+                    <div className="col-md-6" style={{ minHeight: '350px' }}>
+                        <div className="position-relative h-100">
+                        <img className="position-absolute img-fluid w-100 h-100" src="/src/assets/img/service-4.jpg" style={{ objectFit: 'cover' }} alt="Oil Changing" />
+                        </div>
+                    </div>
+                    <div className="col-md-6">
+                        <h3 className="mb-3">Efficient Oil Changing Service</h3>
+                        <p className="mb-4">We offer efficient oil changes with premium oils, fluid checks, and environmentally friendly disposal practices, keeping your engine running smoothly and efficiently while protecting the environment.</p>
+                        <p><i className="fa fa-check text-success me-3"></i>Premium Oil Selection</p>
+                        <p><i className="fa fa-check text-success me-3"></i>Efficient Fluid Maintenance</p>
+                        <p><i className="fa fa-check text-success me-3"></i>Environmentally Friendly Disposal</p>
+                        <a href="#" className="btn btn-primary py-3 px-5 mt-3">Read More<i className="fa fa-arrow-right ms-3"></i></a>
+                    </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+            </div>
+        </div>
+        </div>
+        {/* Service End */}
+
+        {/* Team Start */}
+        <div className="container-xxl py-5">
+            <div className="container">
+                <div className="text-center wow fadeInUp" data-wow-delay="0.1s">
+                    <h6 className="text-primary text-uppercase">Our Technicians</h6>
+                    <h1 className="mb-5">Our Expert Technicians</h1>
+                </div>
+                <div className="row g-4 justify-content-center">
+                    <div className="col-lg-2 col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <div className="team-item">
+                            <div className="position-relative overflow-hidden">
+                                <img className="img-fluid" src="/src/assets/img/profile.png" alt=""/>
+                                <div className="team-overlay position-absolute start-0 top-0 w-100 h-100">
+                                    <a className="btn btn-square mx-1" href=""><i className="fab fa-facebook-f"></i></a>
+                                    <a className="btn btn-square mx-1" href=""><i className="fab fa-twitter"></i></a>
+                                    <a className="btn btn-square mx-1" href=""><i className="fab fa-instagram"></i></a>
+                                </div>
+                            </div>
+                            <div className="bg-light text-center p-4">
+                                <h5 className="fw-bold mb-0">Full Name</h5>
+                                <small>Designation</small>
                             </div>
                         </div>
-                        <div className="bg-light text-center p-4">
-                            <h5 className="fw-bold mb-0">Full Name</h5>
-                            <small>Designation</small>
+                    </div>
+                    <div className="col-lg-2 col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
+                        <div className="team-item">
+                            <div className="position-relative overflow-hidden">
+                                <img className="img-fluid" src="/src/assets/img/profile.png" alt=""/>
+                                <div className="team-overlay position-absolute start-0 top-0 w-100 h-100">
+                                    <a className="btn btn-square mx-1" href=""><i className="fab fa-facebook-f"></i></a>
+                                    <a className="btn btn-square mx-1" href=""><i className="fab fa-twitter"></i></a>
+                                    <a className="btn btn-square mx-1" href=""><i className="fab fa-instagram"></i></a>
+                                </div>
+                            </div>
+                            <div className="bg-light text-center p-4">
+                                <h5 className="fw-bold mb-0">Full Name</h5>
+                                <small>Designation</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-lg-2 col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <div className="team-item">
+                            <div className="position-relative overflow-hidden">
+                                <img className="img-fluid" src="/src/assets/img/profile.png" alt=""/>
+                                <div className="team-overlay position-absolute start-0 top-0 w-100 h-100">
+                                    <a className="btn btn-square mx-1" href=""><i className="fab fa-facebook-f"></i></a>
+                                    <a className="btn btn-square mx-1" href=""><i className="fab fa-twitter"></i></a>
+                                    <a className="btn btn-square mx-1" href=""><i className="fab fa-instagram"></i></a>
+                                </div>
+                            </div>
+                            <div className="bg-light text-center p-4">
+                                <h5 className="fw-bold mb-0">Full Name</h5>
+                                <small>Designation</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-lg-2 col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
+                        <div className="team-item">
+                            <div className="position-relative overflow-hidden">
+                                <img className="img-fluid" src="/src/assets/img/profile.png" alt=""/>
+                                <div className="team-overlay position-absolute start-0 top-0 w-100 h-100">
+                                    <a className="btn btn-square mx-1" href=""><i className="fab fa-facebook-f"></i></a>
+                                    <a className="btn btn-square mx-1" href=""><i className="fab fa-twitter"></i></a>
+                                    <a className="btn btn-square mx-1" href=""><i className="fab fa-instagram"></i></a>
+                                </div>
+                            </div>
+                            <div className="bg-light text-center p-4">
+                                <h5 className="fw-bold mb-0">Full Name</h5>
+                                <small>Designation</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-lg-2 col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.9s">
+                        <div className="team-item">
+                            <div className="position-relative overflow-hidden">
+                                <img className="img-fluid" src="/src/assets/img/profile.png" alt=""/>
+                                <div className="team-overlay position-absolute start-0 top-0 w-100 h-100">
+                                    <a className="btn btn-square mx-1" href=""><i className="fab fa-facebook-f"></i></a>
+                                    <a className="btn btn-square mx-1" href=""><i className="fab fa-twitter"></i></a>
+                                    <a className="btn btn-square mx-1" href=""><i className="fab fa-instagram"></i></a>
+                                </div>
+                            </div>
+                            <div className="bg-light text-center p-4">
+                                <h5 className="fw-bold mb-0">Full Name</h5>
+                                <small>Designation</small>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    {/* Team End */}
+        {/* Team End */}
 
 
 
 
-    {/* Testimonial Start */}
-    <div className="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
-        <div className="container">
-          <div className="text-center">
-            <h6 className="text-primary text-uppercase">Testimonial</h6>
-            <h1 className="mb-5">Our Clients Say!</h1>
-          </div>
+        {/* Testimonial Start */}
+        <div className="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
+            <div className="container">
+            <div className="text-center">
+                <h6 className="text-primary text-uppercase">Testimonial</h6>
+                <h1 className="mb-5">Our Clients Say!</h1>
+            </div>
 
-          <OwlCarousel
-            className="owl-theme"
-            loop
-            margin={10}
-            nav={false}
-            autoplay
-            autoplayTimeout={3000}
-            responsive={{
-              0: { items: 1 },
-              600: { items: 2 },
-              1000: { items: 3 },
-            }}
-          >
-            {[
-              {
-                img: "/src/assets/img/profile.png",
-                name: "Full Name",
-                profession: "",
-                text: "Sasik Service Station provides exceptional service every time I visit. The team is professional, and my vehicle is always well-maintained and running smoothly. Highly recommend!"
-                },
+            <OwlCarousel
+                className="owl-theme"
+                loop
+                margin={10}
+                nav={false}
+                autoplay
+                autoplayTimeout={3000}
+                responsive={{
+                0: { items: 1 },
+                600: { items: 2 },
+                1000: { items: 3 },
+                }}
+            >
+                {[
                 {
-                img: "/src/assets/img/profile.png",
-                name: "Full Name",
-                profession: "",
-                text: "I am always impressed by the thorough and efficient service I receive. The team is friendly and ensures my car is in top shape, making my daily commute smooth and worry-free."
-                },
-                {
-                img: "/src/assets/img/profile.png",
-                name: "Full Name",
-                profession: "",
-                text: "The quality of service and attention to detail are exceptional. The team at Sasik Service Station really knows how to take care of cars, and I wouldn’t trust anyone else with mine."
-                },
-                {
-                img: "/src/assets/img/profile.png",
-                name: "Full Name",
-                profession: "",
-                text: "Maintaining my car is crucial for my busy schedule. Sasik Service Station always provides reliable service, and I can count on them to keep me on the road safely and on time."
-                },
-                // Add additional testimonials as needed
-            ].map((testimonial, index) => (
-              <div className="testimonial-item text-center" key={index}>
-                <img
-                  className="bg-light rounded-circle p-2 mx-auto mb-3"
-                  src={testimonial.img}
-                  alt={`Testimonial ${index + 1}`}
-                  style={{ width: "80px", height: "80px" }}
-                />
-                <h5 className="mb-0">{testimonial.name}</h5>
-                <p>{testimonial.profession}</p>
-                <div className="testimonial-text bg-light text-center p-4">
-                  <p className="mb-0">{testimonial.text}</p>
+                    img: "/src/assets/img/profile.png",
+                    name: "Full Name",
+                    profession: "",
+                    text: "Sasik Service Station provides exceptional service every time I visit. The team is professional, and my vehicle is always well-maintained and running smoothly. Highly recommend!"
+                    },
+                    {
+                    img: "/src/assets/img/profile.png",
+                    name: "Full Name",
+                    profession: "",
+                    text: "I am always impressed by the thorough and efficient service I receive. The team is friendly and ensures my car is in top shape, making my daily commute smooth and worry-free."
+                    },
+                    {
+                    img: "/src/assets/img/profile.png",
+                    name: "Full Name",
+                    profession: "",
+                    text: "The quality of service and attention to detail are exceptional. The team at Sasik Service Station really knows how to take care of cars, and I wouldn’t trust anyone else with mine."
+                    },
+                    {
+                    img: "/src/assets/img/profile.png",
+                    name: "Full Name",
+                    profession: "",
+                    text: "Maintaining my car is crucial for my busy schedule. Sasik Service Station always provides reliable service, and I can count on them to keep me on the road safely and on time."
+                    },
+                    // Add additional testimonials as needed
+                ].map((testimonial, index) => (
+                <div className="testimonial-item text-center" key={index}>
+                    <img
+                    className="bg-light rounded-circle p-2 mx-auto mb-3"
+                    src={testimonial.img}
+                    alt={`Testimonial ${index + 1}`}
+                    style={{ width: "80px", height: "80px" }}
+                    />
+                    <h5 className="mb-0">{testimonial.name}</h5>
+                    <p>{testimonial.profession}</p>
+                    <div className="testimonial-text bg-light text-center p-4">
+                    <p className="mb-0">{testimonial.text}</p>
+                    </div>
                 </div>
-              </div>
-            ))}
-          </OwlCarousel>
+                ))}
+            </OwlCarousel>
+            </div>
         </div>
-      </div>
-      {/* Testimonial End */}
+        {/* Testimonial End */}
 
 
 

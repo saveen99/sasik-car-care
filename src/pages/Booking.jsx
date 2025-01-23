@@ -152,9 +152,12 @@ function Booking() {
                         style={{ height: "55px" }}
                       >
                         <option value="">Select A Service</option>
-                        <option value="Service 1">Service 1</option>
-                        <option value="Service 2">Service 2</option>
-                        <option value="Service 3">Service 3</option>
+                        <option value="Oil Change">Oil Change</option>
+                        <option value="Tire Replacement">Tire Replacement</option>
+                        <option value="Brake Inspection">Brake Inspection</option>
+                        <option value="Car Wash & Detailing">Car Wash & Detailing</option>
+                        <option value="Battery Replacement">Battery Replacement</option>
+                        <option value="Engine Diagnosis">Engine Diagnosis</option>
                       </select>
                     </div>
                     <div className="col-12 col-sm-6">
