@@ -11,7 +11,7 @@ function Home() {
           <div id="header-carousel" className="carousel slide" data-bs-ride="carousel">
               <div className="carousel-inner">
                   <div className="carousel-item active">
-                      <img className="w-100" src="/src/assets/img/carousel-bg-1.jpg" alt="Image"/>
+                      <img className="w-100" src="../src/assets/img/carousel-bg-1.jpg" alt="Image"/>
                       <div className="carousel-caption d-flex align-items-center">
                           <div className="container">
                               <div className="row align-items-center justify-content-center justify-content-lg-start">
@@ -21,14 +21,14 @@ function Home() {
                                       <a href="" className="btn btn-primary py-3 px-5 animated slideInDown">Learn More<i className="fa fa-arrow-right ms-3"></i></a>
                                   </div>
                                   <div className="col-lg-5 d-none d-lg-flex animated zoomIn">
-                                      <img className="img-fluid" src="/src/assets/img/carousel-1.png" alt=""/>
+                                      <img className="img-fluid" src="../src/assets/img/carousel-1.png" alt=""/>
                                   </div>
                               </div>
                           </div>
                       </div>
                   </div>
                   <div className="carousel-item">
-                      <img className="w-100" src="/src/assets/img/carousel-bg-2.jpg" alt="Image"/>
+                      <img className="w-100" src="../src/assets/img/carousel-bg-2.jpg" alt="Image"/>
                       <div className="carousel-caption d-flex align-items-center">
                           <div className="container">
                               <div className="row align-items-center justify-content-center justify-content-lg-start">
@@ -38,7 +38,7 @@ function Home() {
                                       <a href="" className="btn btn-primary py-3 px-5 animated slideInDown">Learn More<i className="fa fa-arrow-right ms-3"></i></a>
                                   </div>
                                   <div className="col-lg-5 d-none d-lg-flex animated zoomIn">
-                                      <img className="img-fluid" src="/src/assets/img/carousel-2.png" alt=""/>
+                                      <img className="img-fluid" src="../src/assets/img/carousel-2.png" alt=""/>
                                   </div>
                               </div>
                           </div>
@@ -104,7 +104,7 @@ function Home() {
             <div className="row g-5">
             <div className="col-lg-6 pt-4" style={{ minHeight: '400px' }}>
                 <div className="position-relative h-100 wow fadeIn" data-wow-delay="0.1s">
-                <img className="position-absolute img-fluid w-100 h-100" src="/src/assets/img/about.jpg" style={{ objectFit: 'cover' }} alt="About Us" />
+                <img className="position-absolute img-fluid w-100 h-100" src="./src/assets/img/about.jpg" style={{ objectFit: 'cover' }} alt="About Us" />
                 <div className="position-absolute top-0 end-0 mt-n4 me-n4 py-4 px-5" style={{ background: 'rgba(0, 0, 0, .08)' }}>
                     <h1 className="display-4 text-white mb-0">15 <span className="fs-4">Years</span></h1>
                     <h4 className="text-white">Experience</h4>
@@ -221,7 +221,7 @@ function Home() {
                     <div className="row g-4">
                     <div className="col-md-6" style={{ minHeight: '350px' }}>
                         <div className="position-relative h-100">
-                        <img className="position-absolute img-fluid w-100 h-100" src="/src/assets/img/service-1.jpg" style={{ objectFit: 'cover' }} alt="Diagnostic Test" />
+                        <img className="position-absolute img-fluid w-100 h-100" src="./src/assets/img/service-1.jpg" style={{ objectFit: 'cover' }} alt="Diagnostic Test" />
                         </div>
                     </div>
                     <div className="col-md-6">
@@ -238,7 +238,7 @@ function Home() {
                     <div className="row g-4">
                     <div className="col-md-6" style={{ minHeight: '350px' }}>
                         <div className="position-relative h-100">
-                        <img className="position-absolute img-fluid w-100 h-100" src="/src/assets/img/service-2.jpg" style={{ objectFit: 'cover' }} alt="Engine Servicing" />
+                        <img className="position-absolute img-fluid w-100 h-100" src="./src/assets/img/service-2.jpg" style={{ objectFit: 'cover' }} alt="Engine Servicing" />
                         </div>
                     </div>
                     <div className="col-md-6">
@@ -255,7 +255,7 @@ function Home() {
                     <div className="row g-4">
                     <div className="col-md-6" style={{ minHeight: '350px' }}>
                         <div className="position-relative h-100">
-                        <img className="position-absolute img-fluid w-100 h-100" src="/src/assets/img/service-3.jpg" style={{ objectFit: 'cover' }} alt="Tires Replacement" />
+                        <img className="position-absolute img-fluid w-100 h-100" src="./src/assets/img/service-3.jpg" style={{ objectFit: 'cover' }} alt="Tires Replacement" />
                         </div>
                     </div>
                     <div className="col-md-6">
@@ -272,7 +272,7 @@ function Home() {
                     <div className="row g-4">
                     <div className="col-md-6" style={{ minHeight: '350px' }}>
                         <div className="position-relative h-100">
-                        <img className="position-absolute img-fluid w-100 h-100" src="/src/assets/img/service-4.jpg" style={{ objectFit: 'cover' }} alt="Oil Changing" />
+                        <img className="position-absolute img-fluid w-100 h-100" src="./src/assets/img/service-4.jpg" style={{ objectFit: 'cover' }} alt="Oil Changing" />
                         </div>
                     </div>
                     <div className="col-md-6">
@@ -303,7 +303,7 @@ function Home() {
                     <div className="col-lg-2 col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
                         <div className="team-item">
                             <div className="position-relative overflow-hidden">
-                                <img className="img-fluid" src="/src/assets/img/profile.png" alt=""/>
+                                <img className="img-fluid" src="./src/assets/img/profile.png" alt=""/>
                                 <div className="team-overlay position-absolute start-0 top-0 w-100 h-100">
                                     <a className="btn btn-square mx-1" href=""><i className="fab fa-facebook-f"></i></a>
                                     <a className="btn btn-square mx-1" href=""><i className="fab fa-twitter"></i></a>
@@ -319,7 +319,7 @@ function Home() {
                     <div className="col-lg-2 col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
                         <div className="team-item">
                             <div className="position-relative overflow-hidden">
-                                <img className="img-fluid" src="/src/assets/img/profile.png" alt=""/>
+                                <img className="img-fluid" src="./src/assets/img/profile.png" alt=""/>
                                 <div className="team-overlay position-absolute start-0 top-0 w-100 h-100">
                                     <a className="btn btn-square mx-1" href=""><i className="fab fa-facebook-f"></i></a>
                                     <a className="btn btn-square mx-1" href=""><i className="fab fa-twitter"></i></a>
@@ -335,7 +335,7 @@ function Home() {
                     <div className="col-lg-2 col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
                         <div className="team-item">
                             <div className="position-relative overflow-hidden">
-                                <img className="img-fluid" src="/src/assets/img/profile.png" alt=""/>
+                                <img className="img-fluid" src="./src/assets/img/profile.png" alt=""/>
                                 <div className="team-overlay position-absolute start-0 top-0 w-100 h-100">
                                     <a className="btn btn-square mx-1" href=""><i className="fab fa-facebook-f"></i></a>
                                     <a className="btn btn-square mx-1" href=""><i className="fab fa-twitter"></i></a>
@@ -351,7 +351,7 @@ function Home() {
                     <div className="col-lg-2 col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
                         <div className="team-item">
                             <div className="position-relative overflow-hidden">
-                                <img className="img-fluid" src="/src/assets/img/profile.png" alt=""/>
+                                <img className="img-fluid" src="./src/assets/img/profile.png" alt=""/>
                                 <div className="team-overlay position-absolute start-0 top-0 w-100 h-100">
                                     <a className="btn btn-square mx-1" href=""><i className="fab fa-facebook-f"></i></a>
                                     <a className="btn btn-square mx-1" href=""><i className="fab fa-twitter"></i></a>
@@ -367,7 +367,7 @@ function Home() {
                     <div className="col-lg-2 col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.9s">
                         <div className="team-item">
                             <div className="position-relative overflow-hidden">
-                                <img className="img-fluid" src="/src/assets/img/profile.png" alt=""/>
+                                <img className="img-fluid" src="./src/assets/img/profile.png" alt=""/>
                                 <div className="team-overlay position-absolute start-0 top-0 w-100 h-100">
                                     <a className="btn btn-square mx-1" href=""><i className="fab fa-facebook-f"></i></a>
                                     <a className="btn btn-square mx-1" href=""><i className="fab fa-twitter"></i></a>
@@ -411,25 +411,25 @@ function Home() {
             >
                 {[
                 {
-                    img: "/src/assets/img/profile.png",
+                    img: "./src/assets/img/profile.png",
                     name: "Full Name",
                     profession: "",
                     text: "Sasik Service Station provides exceptional service every time I visit. The team is professional, and my vehicle is always well-maintained and running smoothly. Highly recommend!"
                     },
                     {
-                    img: "/src/assets/img/profile.png",
+                    img: "./src/assets/img/profile.png",
                     name: "Full Name",
                     profession: "",
                     text: "I am always impressed by the thorough and efficient service I receive. The team is friendly and ensures my car is in top shape, making my daily commute smooth and worry-free."
                     },
                     {
-                    img: "/src/assets/img/profile.png",
+                    img: "./src/assets/img/profile.png",
                     name: "Full Name",
                     profession: "",
                     text: "The quality of service and attention to detail are exceptional. The team at Sasik Service Station really knows how to take care of cars, and I wouldn’t trust anyone else with mine."
                     },
                     {
-                    img: "/src/assets/img/profile.png",
+                    img: "./src/assets/img/profile.png",
                     name: "Full Name",
                     profession: "",
                     text: "Maintaining my car is crucial for my busy schedule. Sasik Service Station always provides reliable service, and I can count on them to keep me on the road safely and on time."
@@ -455,11 +455,6 @@ function Home() {
         </div>
         {/* Testimonial End */}
 
-
-
-      
-
-      
     </div>
   )
 }

@@ -10,9 +10,9 @@ function FAQs() {
 
   const faqs = [
     {
-      question: "What services do you offer?",
+      question: "Can I cancel my booking?",
       answer:
-        "We offer a wide range of car services, including oil changes, tire rotations, engine diagnostics, and more.",
+        "Yes, you can cancel your appointment by contacting support at least 24 hours in advance.",
     },
     {
       question: "How can I contact customer support?",
@@ -20,19 +20,19 @@ function FAQs() {
         "You can reach us through our contact page, by calling our support number, or via email at sasikservice@gmail.com.",
     },
     {
-      question: "Do you offer emergency services?",
+      question: "Can I book multiple services at once?",
       answer:
-        "Yes, we provide 24/7 emergency services for breakdowns and urgent repairs.",
+        "Yes! Select all necessary services in the dropdown or add a note in the Special Request section.",
     },
     {
-      question: "Can I schedule a service online?",
+      question: "How far in advance can I book a service?",
       answer:
-        "Absolutely! You can book an appointment through our mobile app.",
+        "You can book up to 30 days in advance.",
     },
     {
-      question: "What payment methods do you accept?",
+      question: "Can I request a specific mechanic to work on my car?",
       answer:
-        "We accept cash, credit/debit cards, and digital wallets like PayPal and Google Pay.",
+        "Yes! If you have a preferred mechanic, mention their name in the Special Request section, and we will do our best to accommodate your request.",
     },
   ];
 
