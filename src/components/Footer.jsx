@@ -45,8 +45,8 @@ function Footer() {
             <div className="copyright">
             <div className="row">
                 <div className="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                &copy; <a className="border-bottom" href="#">Sasik Service Station</a>, All Right Reserved.
-                Designed By <a className="border-bottom" href="#">Team NIBM</a>
+                &copy; 2025 All Right Reserved,
+                Developed By <a className="border-bottom" href="#">Saveen Maduranga</a>
                 </div>
                 <div className="col-md-6 text-center text-md-end">
                 <div className="footer-menu">
